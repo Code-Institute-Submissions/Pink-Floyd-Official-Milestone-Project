@@ -1,0 +1,238 @@
+/*---------------------FONT STYLES*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Shrikhand:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+/*---------------------HOVER EFFECTS*/
+
+/*.site-wide-alert .hvr-grow:before{
+}
+
+.hvr-bounce-out:before{
+}*/
+
+/*--------------------HEADER STYLES---*/
+
+.header-container {
+    margin: 0;
+    border: 0;
+    padding: 0 0;
+}
+
+.alert-bar{
+    margin: 0;
+    border: 0;
+    padding: 0 0;
+    background-color: #f5c729;
+}
+
+.site-wide-alert {
+    margin: 0;
+    border: 0;
+    padding: 5px 0 10px 0;
+    border-radius: 0;
+    text-align: center;
+}
+
+.site-wide-alert a{
+    text-decoration: none;
+    color: #7aa7d8;
+    font-family: "Indie Flower", sans-serif;
+    font-size: 24px;
+    /*text-transform: uppercase;*/
+}
+
+.navbar-container{
+    margin: 0;
+    border: 0;
+    padding: 0 0;
+} 
+
+.nav-bar {
+    margin: 0;
+    border: 0;
+    padding: 0 0;
+    /*background-color: #7aa7d8;*/
+    background-color: #8d639c;
+}
+
+.navbar-nav {
+    margin: 0 13px 0 13px;
+    border: 0;
+    padding: 0 0;
+    width:100%;
+    text-align: center;
+    /*background-color: #7aa7d8;*/
+    background-color: #8d639c;
+}
+
+.nav-item a{
+    margin: 0;
+    border: 0;
+    padding: 0 0;
+    color: #fafafa;
+    text-decoration: none;
+    width:100%;
+}
+
+.nav-item a i {
+    margin: 0;
+    border: 0;
+    padding: 15px 0 10px 0;
+    color: #dad3d3;
+    font-size: 30px;
+}
+
+.nav-item span{
+    display: block;
+    color: #dad3d3;
+    padding: 0 0 10px 0;
+    text-align: center;
+    font-family: "Indie Flower", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+/*--------------------SECTION STYLES---*/
+
+section  {
+   /* background-image: url("https://i.ytimg.com/vi/5zQBUoj7-ic/maxresdefault.jpg");*/
+    background-image: url("https://www.telegraph.co.uk/content/dam/science/2017/07/31/Perseid-Meteor_IMG_3935_trans_NvBQzQNjv4BqqVzuuqpFlyLIwiB6NTmJwfSVWeZ_vEN7c6bHu2jJnT8.png?imwidth=450");
+    background-repeat:no-repeat;
+    background-size: cover;
+    min-height: 500px;
+    margin:0;
+    border:0;
+    padding:0 0 200px 0;
+    
+}
+
+.site-title{
+    margin:0;
+    border:0;
+    padding:0 0 0 0;
+}
+
+.site-title h3{
+    margin:0;
+    border:0;
+    padding:250px 0 50px 0;
+    text-align: center;
+    font-family: "Permanent Marker", sans-serif;
+    font-size: 100px;
+    font-weight: 100;
+    color: #f8cfd6;
+    letter-spacing: 15px;
+}
+
+.site-title h6{
+    margin:0;
+    border:0;
+    padding:0 0 250px 0;
+    text-align: center;
+    font-family: "Permanent Marker", sans-serif;
+    font-size: 50px;
+    font-weight: 100;
+    color: #f8cfd6;
+    letter-spacing: 5px;
+}
+
+/*--------------------FOOTER STYLES---*/
+
+.footer-container {
+    margin: 0;
+    border: 0;
+    padding: 0 0;
+    /*background-color: #7aa7d8;*/
+    background-color: #8d639c;
+}
+
+.footer-alert {
+    margin: 0;
+    border: 0;
+    padding: 10px 0 10px 0;
+    border-radius: 0;
+    
+}
+
+.footer-alert a{
+    font-family: "Indie Flower", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    text-decoration: none;
+    text-align: center;
+    color:  #f5c729;
+    width:100%;
+    vertical-align: middle
+    
+}
+
+.footer-links{font-family: "Indie Flower", sans-serif;
+    padding: 8px 0 0 0;
+    font-weight: 700;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    color:  #dad3d3;
+    vertical-align: middle
+    
+}
+
+.social-links{
+    margin:0;
+    border:0;
+    padding: 9px 0 0 5px;
+    float: left;
+}
+
+.social-links li a {margin-right: 0.75em;}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    margin-bottom: 5px;
+    font-size: 22px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8e8c8c;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #3498db;
+}
+
+#item-facebook {
+    background-color: #4141ed;
+    color: white;
+}
+
+#item-twitter {
+    background-color: white;
+    color: #4141ed;
+}
+#item-instagram {
+    background-color: #d12bd1;
+    color: white;
+}
+
+#item-youtube {
+    background-color: white;
+    color: #db0e0e;
+}
+
+/*--------------------MEDIA---*/
+@media(min-width: 992px) {
+    .nav-item{
+        width: 20%;
+    }
+}
