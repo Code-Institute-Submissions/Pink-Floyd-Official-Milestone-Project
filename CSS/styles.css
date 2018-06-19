@@ -1,37 +1,59 @@
-/*---------------------FONT STYLES*/
+
+
+/*--------------------SITE FONT STYLES---*/
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 @import url('https://fonts.googleapis.com/css?family=Shrikhand:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
-/*---------------------HOVER EFFECTS*/
+/*---------------------HOVER EFFECT STYLES---*/
 
-/*.site-wide-alert .hvr-grow:before{
+.hvr-grow {
+    transition-duration: 0.5s;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
 }
 
-.hvr-bounce-out:before{
-}*/
+/*---------------------BACKGROUND IMAGE STYLES---*/
 
-/*--------------------HEADER STYLES---*/
+body  {
+   /* background-image: url("https://i.ytimg.com/vi/5zQBUoj7-ic/maxresdefault.jpg");*/
+    background-image: url("https://www.telegraph.co.uk/content/dam/science/2017/07/31/Perseid-Meteor_IMG_3935_trans_NvBQzQNjv4BqqVzuuqpFlyLIwiB6NTmJwfSVWeZ_vEN7c6bHu2jJnT8.png?imwidth=450");
+    background-repeat:no-repeat;
+    background-size: cover;
+    margin:0;
+    border:0;
+    padding: 0;
+}
+
+/*--------------------CONTAINER STYLES---*/
 
 .header-container {
     margin: 0;
     border: 0;
-    padding: 0 0;
+    padding: 0;
 }
+
+.navbar-container{
+    margin: 0;
+    border: 0;
+    padding: 0;
+} 
+
+/*--------------------HEADER ALERT STYLES---*/
 
 .alert-bar{
     margin: 0;
     border: 0;
-    padding: 0 0;
+    padding: 0;
     background-color: #f5c729;
 }
 
 .site-wide-alert {
     margin: 0;
     border: 0;
-    padding: 5px 0 10px 0;
+    padding: 5px 0 5px 0;
     border-radius: 0;
     text-align: center;
 }
@@ -41,74 +63,53 @@
     color: #7aa7d8;
     font-family: "Indie Flower", sans-serif;
     font-size: 24px;
-    /*text-transform: uppercase;*/
 }
 
-.navbar-container{
-    margin: 0;
+/*--------------------NAVIGATION BAR STYLES---*/
+
+.navbar{
     border: 0;
-    padding: 0 0;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-toggler{
+    border: 0;
+    border-color: transparent;
+    margin-top: 5px;
+    padding: 0;
 } 
 
-.nav-bar {
-    margin: 0;
+.navbar-toggler .toggle-btn i {
     border: 0;
-    padding: 0 0;
-    /*background-color: #7aa7d8;*/
-    background-color: #8d639c;
-}
-
-.navbar-nav {
-    margin: 0 13px 0 13px;
-    border: 0;
-    padding: 0 0;
-    width:100%;
-    text-align: center;
-    /*background-color: #7aa7d8;*/
-    background-color: #8d639c;
-}
-
-.nav-item a{
-    margin: 0;
-    border: 0;
-    padding: 0 0;
-    color: #fafafa;
-    text-decoration: none;
-    width:100%;
-}
-
-.nav-item a i {
-    margin: 0;
-    border: 0;
-    padding: 15px 0 10px 0;
-    color: #dad3d3;
+    margin:0;
+    padding-bottom: 5px;
+    width: 50px;
+    color: #8d639c;
     font-size: 30px;
 }
 
-.nav-item span{
-    display: block;
-    color: #dad3d3;
-    padding: 0 0 10px 0;
+.navbar-nav {
+    margin: 0;
+    border: 0;
+    padding: 0 0 25px 0;
+    width:35px;
+    float: right;
     text-align: center;
-    font-family: "Indie Flower", sans-serif;
+    background-color: transparent;
+}
+
+.nav-item a i {
+    display: inline-block;
+    margin: 0;
+    border: 0;
+    padding: 0 15px 10px 0;
+    text-align: right;
+    color: #8d639c;
     font-size: 20px;
-    font-weight: 300;
-    letter-spacing: 2px;
 }
 
-/*--------------------SECTION STYLES---*/
-
-section  {
-   /* background-image: url("https://i.ytimg.com/vi/5zQBUoj7-ic/maxresdefault.jpg");*/
-    background-image: url("https://www.telegraph.co.uk/content/dam/science/2017/07/31/Perseid-Meteor_IMG_3935_trans_NvBQzQNjv4BqqVzuuqpFlyLIwiB6NTmJwfSVWeZ_vEN7c6bHu2jJnT8.png?imwidth=450");
-    background-repeat:no-repeat;
-    background-size: cover;
-    min-height: 500px;
-    margin:0;
-    border:0;
-    padding:0 0 200px 0;
-    
-}
+/*--------------------HOME SECTION STYLES---*/
 
 .site-title{
     margin:0;
@@ -119,22 +120,24 @@ section  {
 .site-title h3{
     margin:0;
     border:0;
-    padding:250px 0 50px 0;
+    padding:250px 0 20px 0;
+    vertical-align: middle;
     text-align: center;
     font-family: "Permanent Marker", sans-serif;
-    font-size: 100px;
+    font-size: 50px;
     font-weight: 100;
     color: #f8cfd6;
-    letter-spacing: 15px;
+    letter-spacing: 10px;
 }
 
 .site-title h6{
     margin:0;
     border:0;
-    padding:0 0 250px 0;
+    padding:0 0 275px 0;
     text-align: center;
+    vertical-align: middle;
     font-family: "Permanent Marker", sans-serif;
-    font-size: 50px;
+    font-size: 30px;
     font-weight: 100;
     color: #f8cfd6;
     letter-spacing: 5px;
@@ -145,8 +148,7 @@ section  {
 .footer-container {
     margin: 0;
     border: 0;
-    padding: 0 0;
-    /*background-color: #7aa7d8;*/
+    padding: 0;
     background-color: #8d639c;
 }
 
@@ -170,22 +172,22 @@ section  {
     
 }
 
-.footer-links{font-family: "Indie Flower", sans-serif;
-    padding: 8px 0 0 0;
+.footer-links{
+    font-family: "Indie Flower", sans-serif;
+    padding: 5px 0 0 0;
+    margin-right: 0.75em;
     font-weight: 700;
     font-size: 20px;
     text-decoration: none;
     text-align: center;
     color:  #dad3d3;
-    vertical-align: middle
-    
 }
 
 .social-links{
     margin:0;
     border:0;
     padding: 9px 0 0 5px;
-    float: left;
+    float: center;
 }
 
 .social-links li a {margin-right: 0.75em;}
@@ -199,8 +201,6 @@ section  {
     font-size: 22px;
     line-height: 7px;
     text-align: center;
-    color: #fafafa;
-    background: #8e8c8c;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -220,6 +220,7 @@ section  {
     background-color: white;
     color: #4141ed;
 }
+
 #item-instagram {
     background-color: #d12bd1;
     color: white;
@@ -231,8 +232,56 @@ section  {
 }
 
 /*--------------------MEDIA---*/
-@media(min-width: 992px) {
-    .nav-item{
+
+@media(min-width: 768px) {
+    
+    /*----NAVIGATION BAR---*/
+
+    .navbar {
+        background-color: #8d639c;
+    }
+
+    .navbar-nav {
+        margin: 0 13px 0 13px;
+        border: 0;
+        padding: 0 0;
+        width: 100%;
+        text-align: center;
+        background-color: #8d639c;
+    }
+
+    .nav-item {
         width: 20%;
     }
+
+    .nav-item a i {
+        margin: 0;
+        border: 0;
+        padding: 5px 0 10px 0;
+        color: #dad3d3;
+        font-size: 20px;
+    }
+
+    .nav-item span {
+        display: block;
+        color: #dad3d3;
+        padding: 0 0 5px 0;
+        text-align: center;
+        font-family: "Indie Flower", sans-serif;
+        font-size: 20px;
+        font-weight: 300;
+        letter-spacing: 2px;
+    }
+    
+    /*----HOME PAGE CONTENT---*/
+    
+    .site-title h3{
+    font-size: 100px;
+    letter-spacing: 15px;
+}
+
+.site-title h6{
+    font-size: 50px;
+    letter-spacing: 5px;
+}
 }
