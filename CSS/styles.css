@@ -1,5 +1,3 @@
-
-
 /*--------------------SITE FONT STYLES---*/
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
@@ -7,208 +5,224 @@
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
+
 /*---------------------HOVER EFFECT STYLES---*/
 
 .hvr-grow {
-    transition-duration: 0.5s;
-    transition-property: all;
-    transition-timing-function: ease-in-out;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
 }
 
 /*---------------------BACKGROUND IMAGE STYLES---*/
 
-body  {
-   /* background-image: url("https://i.ytimg.com/vi/5zQBUoj7-ic/maxresdefault.jpg");*/
-    background-image: url("https://www.telegraph.co.uk/content/dam/science/2017/07/31/Perseid-Meteor_IMG_3935_trans_NvBQzQNjv4BqqVzuuqpFlyLIwiB6NTmJwfSVWeZ_vEN7c6bHu2jJnT8.png?imwidth=450");
-    background-repeat:no-repeat;
-    background-size: cover;
-    margin:0;
-    border:0;
-    padding: 0;
+body, html {
+    height: 100%
 }
+
+/*--REFERENCE 4*/
+
+body {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background-image: url("/Assets/star_back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
 
 /*--------------------CONTAINER STYLES---*/
 
 .header-container {
-    margin: 0;
     border: 0;
+    margin: 0;
     padding: 0;
 }
 
-.navbar-container{
-    margin: 0;
+.navbar-container {
     border: 0;
+    margin: 0;
     padding: 0;
-} 
+}
+
+.footer-container {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #8d639c;
+}
+
 
 /*--------------------HEADER ALERT STYLES---*/
 
-.alert-bar{
-    margin: 0;
+.alert-bar {
     border: 0;
+    margin: 0;
     padding: 0;
     background-color: #f5c729;
 }
 
 .site-wide-alert {
-    margin: 0;
     border: 0;
+    margin: 0;
     padding: 5px 0 5px 0;
     border-radius: 0;
     text-align: center;
 }
 
-.site-wide-alert a{
+.site-wide-alert a {
     text-decoration: none;
-    color: #7aa7d8;
     font-family: "Indie Flower", sans-serif;
     font-size: 24px;
+    color: #7aa7d8;
 }
+
 
 /*--------------------NAVIGATION BAR STYLES---*/
 
-.navbar{
+.navbar {
     border: 0;
     margin: 0;
     padding: 0;
 }
 
-.navbar-toggler{
+.navbar-toggler {
     border: 0;
-    border-color: transparent;
     margin-top: 5px;
     padding: 0;
-} 
+    border-color: transparent;
+}
 
 .navbar-toggler .toggle-btn i {
     border: 0;
-    margin:0;
-    padding-bottom: 5px;
+    margin: 0;
+    padding: 5px 0 5px 0;
     width: 50px;
     color: #8d639c;
     font-size: 30px;
 }
 
 .navbar-nav {
-    margin: 0;
     border: 0;
-    padding: 0 0 25px 0;
-    width:35px;
+    margin: 0;
+    padding: 0 0 0 0;
+    width: 35px;
     float: right;
-    text-align: center;
     background-color: transparent;
+    text-align: center;
 }
 
 .nav-item a i {
-    display: inline-block;
-    margin: 0;
     border: 0;
-    padding: 0 15px 10px 0;
+    margin: 0;
+    padding: 0 15px 5px 0;
     text-align: right;
     color: #8d639c;
     font-size: 20px;
 }
 
+
 /*--------------------HOME SECTION STYLES---*/
 
-.site-title{
-    margin:0;
-    border:0;
-    padding:0 0 0 0;
+.site-title {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #f8cfd6;
 }
 
-.site-title h3{
-    margin:0;
-    border:0;
-    padding:250px 0 20px 0;
-    vertical-align: middle;
+.site-title h3 {
+    border: 0;
+    margin: 0;
+    padding: 0;
     text-align: center;
     font-family: "Permanent Marker", sans-serif;
-    font-size: 50px;
+    font-size: 45px;
     font-weight: 100;
-    color: #f8cfd6;
     letter-spacing: 10px;
 }
 
-.site-title h6{
-    margin:0;
-    border:0;
-    padding:0 0 275px 0;
-    text-align: center;
-    vertical-align: middle;
-    font-family: "Permanent Marker", sans-serif;
-    font-size: 30px;
-    font-weight: 100;
-    color: #f8cfd6;
-    letter-spacing: 5px;
-}
-
-/*--------------------FOOTER STYLES---*/
-
-.footer-container {
+.site-title h6 {
     margin: 0;
     border: 0;
     padding: 0;
-    background-color: #8d639c;
+    text-align: center;
+    font-family: "Permanent Marker", sans-serif;
+    font-size: 25px;
+    font-weight: 100;
+    letter-spacing: 5px;
 }
+
+
+/*--------------------FOOTER STYLES---*/
 
 .footer-alert {
-    margin: 0;
     border: 0;
+    margin: 0;
     padding: 10px 0 10px 0;
     border-radius: 0;
-    
+
 }
 
-.footer-alert a{
-    font-family: "Indie Flower", sans-serif;
-    font-weight: 700;
-    font-size: 24px;
+.footer-alert a {
     text-decoration: none;
     text-align: center;
-    color:  #f5c729;
-    width:100%;
-    vertical-align: middle
-    
+    color: #f5c729;
+    width: 100%;
+    vertical-align: middle;
+    font-family: "Indie Flower", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
 }
 
-.footer-links{
-    font-family: "Indie Flower", sans-serif;
-    padding: 5px 0 0 0;
+.footer-links {
     margin-right: 0.75em;
+    padding: 5px 0 0 0;
+    text-decoration: none;
+    text-align: center;
+    color: #dad3d3;
+    font-family: "Indie Flower", sans-serif;
     font-weight: 700;
     font-size: 20px;
-    text-decoration: none;
-    text-align: center;
-    color:  #dad3d3;
 }
 
-.social-links{
-    margin:0;
-    border:0;
+.social-links {
+    border: 0;
+    margin: 0;
     padding: 9px 0 0 5px;
-    float: center;
+    float: left
 }
 
-.social-links li a {margin-right: 0.75em;}
+.social-links li a {
+    margin-right: 0.75em;
+}
 
 .social-links li a i {
+    margin-bottom: 5px;
+    padding: 12px 0;
     width: 32px;
     height: 32px;
-    padding: 12px 0;
     border-radius: 50%;
-    margin-bottom: 5px;
-    font-size: 22px;
     line-height: 7px;
+    font-size: 20px;
     text-align: center;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
-}
-
-.social-links li a i:hover {
-    background: #3498db;
 }
 
 #item-facebook {
@@ -224,6 +238,8 @@ body  {
 #item-instagram {
     background-color: #d12bd1;
     color: white;
+    width:34px;
+    height: 34px;
 }
 
 #item-youtube {
@@ -234,17 +250,17 @@ body  {
 /*--------------------MEDIA---*/
 
 @media(min-width: 768px) {
-    
-    /*----NAVIGATION BAR---*/
 
+    /*----NAVIGATION BAR---*/
+    
     .navbar {
         background-color: #8d639c;
     }
 
     .navbar-nav {
-        margin: 0 13px 0 13px;
         border: 0;
-        padding: 0 0;
+        margin: 0 13px 0 13px;
+        padding: 0;
         width: 100%;
         text-align: center;
         background-color: #8d639c;
@@ -255,33 +271,46 @@ body  {
     }
 
     .nav-item a i {
-        margin: 0;
         border: 0;
+        margin: 0;
         padding: 5px 0 10px 0;
         color: #dad3d3;
         font-size: 20px;
     }
 
     .nav-item span {
+        padding: 0 0 5px 0;
         display: block;
         color: #dad3d3;
-        padding: 0 0 5px 0;
         text-align: center;
         font-family: "Indie Flower", sans-serif;
         font-size: 20px;
         font-weight: 300;
         letter-spacing: 2px;
     }
-    
+
     /*----HOME PAGE CONTENT---*/
     
-    .site-title h3{
-    font-size: 100px;
-    letter-spacing: 15px;
-}
+    .site-title {
+        color: transparent;
+        transition: all 3s ease-in-out;
+        -webkit-transition: all 3s ease-in-out;
+        -moz-transition: all 3s ease-in-out;
+        -o-transition: all 3s ease-in-out;
+    }
 
-.site-title h6{
-    font-size: 50px;
-    letter-spacing: 5px;
-}
+    .site-title:hover {
+        color: #f8cfd6;
+    }
+
+    .site-title h3 {
+        padding-top: 50px;
+        font-size: 100px;
+        letter-spacing: 15px;
+    }
+
+    .site-title h6 {
+        font-size: 50px;
+        letter-spacing: 5px;
+    }
 }
