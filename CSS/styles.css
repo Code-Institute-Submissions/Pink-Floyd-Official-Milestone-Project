@@ -17,7 +17,8 @@
 
 /*---------------------BACKGROUND IMAGE STYLES---*/
 
-body, html {
+body,
+html {
     height: 100%
 }
 
@@ -27,8 +28,8 @@ body {
     border: 0;
     margin: 0;
     padding: 0;
-    background-image: url("/Assets/star_back.jpg");
-    background-repeat: no-repeat;
+    background-image: url("/Assets/stars_back_2.jpg");
+    background-repeat: repeat;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -50,15 +51,22 @@ body {
     padding: 0;
 }
 
+.bio-container {
+    border: 0;
+    margin: 0;
+    padding-bottom: 100px;
+}
+
 .footer-container {
     border: 0;
     margin: 0;
     padding: 0;
-    position: absolute;
+    position: fixed;
     left: 0;
     right: 0;
     bottom: 0;
     background-color: #8d639c;
+
 }
 
 
@@ -111,23 +119,36 @@ body {
     font-size: 30px;
 }
 
-.navbar-nav {
+.nav-bar-items {
     border: 0;
     margin: 0;
-    padding: 0 0 0 0;
-    width: 35px;
-    float: right;
-    background-color: transparent;
+    padding: 0;
+    width: 100%;
+    float: left;
     text-align: center;
+    background-color: transparent
 }
 
-.nav-item a i {
+
+.list-inline .nav-item-link {
     border: 0;
     margin: 0;
-    padding: 0 15px 5px 0;
-    text-align: right;
+    padding: 0;
+    width: 20%;
+    float: left;
+}
+
+.nav-item-link a {
+    margin: 10px 0 5px 0;
+    text-decoration: none;
+}
+
+.nav-item-link a i {
+    border: 0;
+    margin: 0;
+    padding: 10px 15px 5px 0;
     color: #8d639c;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 
@@ -164,6 +185,91 @@ body {
     font-size: 25px;
     font-weight: 100;
     letter-spacing: 5px;
+}
+
+
+/*--------------------BIOGRAPHY SECTION STYLES---*/
+
+.bio-col {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.bio-label {
+    border: 0;
+    margin: 0;
+    padding: 30px 0;
+    font-family: "Indie Flower", sans-serif;
+    font-size: 40px;
+    color: #f5c729;
+    font-weight: bold;
+    text-align: center;
+}
+
+.bio-band-img {
+    border: 0;
+    margin: 0;
+    padding: 0 35px 30px 35px;
+    height: 100%;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bio-band-info {
+    border: 0;
+    margin: 0;
+    padding: 0 35px 30px 35px;
+    font-family: "Indie Flower", sans-serif;
+    font-size: 20px;
+    color: #93b1cd;
+    text-align: justify;
+    font-weight: 700;
+}
+
+
+.bio-member-img {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    max-height: 350px;
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bio-member-name {
+    border: 0;
+    margin: 0;
+    padding: 20px 0 10px 0;
+    font-family: "Indie Flower", sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+.bio-member-info {
+    border: 0;
+    margin: 0;
+    padding: 0 35px 30px 35px;
+    font-family: "Indie Flower", sans-serif;
+    font-size: 20px;
+    color: #93b1cd;
+    text-align: justify;
+    font-weight: 700;
+}
+
+.bio-band-info a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.bio-member-info a {
+    text-decoration: none;
+    color: #007bff;
 }
 
 
@@ -238,7 +344,7 @@ body {
 #item-instagram {
     background-color: #d12bd1;
     color: white;
-    width:34px;
+    width: 34px;
     height: 34px;
 }
 
@@ -252,33 +358,17 @@ body {
 @media(min-width: 768px) {
 
     /*----NAVIGATION BAR---*/
-    
     .navbar {
         background-color: #8d639c;
     }
 
-    .navbar-nav {
-        border: 0;
-        margin: 0 13px 0 13px;
-        padding: 0;
-        width: 100%;
-        text-align: center;
-        background-color: #8d639c;
-    }
-
-    .nav-item {
-        width: 20%;
-    }
-
-    .nav-item a i {
-        border: 0;
-        margin: 0;
-        padding: 5px 0 10px 0;
+    .nav-item-link a i {
+        padding: 10px 0 10px 0;
         color: #dad3d3;
         font-size: 20px;
     }
 
-    .nav-item span {
+    .nav-item-link span {
         padding: 0 0 5px 0;
         display: block;
         color: #dad3d3;
@@ -290,13 +380,12 @@ body {
     }
 
     /*----HOME PAGE CONTENT---*/
-    
     .site-title {
         color: transparent;
         transition: all 3s ease-in-out;
-        -webkit-transition: all 3s ease-in-out;
-        -moz-transition: all 3s ease-in-out;
-        -o-transition: all 3s ease-in-out;
+        -webkit-transition: all 5s ease-in-out;
+        -moz-transition: all 5s ease-in-out;
+        -o-transition: all 5s ease-in-out;
     }
 
     .site-title:hover {
@@ -312,5 +401,32 @@ body {
     .site-title h6 {
         font-size: 50px;
         letter-spacing: 5px;
+    }
+
+    /*----BIO PAGE CONTENT---*/
+    .bio-container {
+        padding-bottom: 50px;
+    }
+    .bio-band-img {
+        padding: 10px 0;
+        width: 90%;
+    }
+
+    .bio-band-info {
+        padding: 0 30px 0 20px;
+    }
+
+    .bio-member-img {
+        padding: 5px 0 40px 0;
+        height: 215px;
+    }
+    .bio-member-name {
+        padding: 0 0 10px 0;
+        text-align: left;
+    }
+
+    .bio-member-info {
+        padding: 0 20px 40px 0;
+        font-size: 15px;
     }
 }
