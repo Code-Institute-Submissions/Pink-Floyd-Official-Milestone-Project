@@ -5,6 +5,7 @@
 [REFERENCE 3] Adding images to page tab: https://stackoverflow.com/questions/20900670/how-to-add-an-image-in-the-title-bar-using-html/20900719
 [REFERENCE 4] Covering background image: https://www.w3schools.com/howto/howto_css_full_page.asp
 [REFERENCE 5] Embed video on iframe: https://getbootstrap.com/docs/4.1/utilities/embed/
+[REFERENCE 6] Embed MP3 on page: https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_audio_all
 
 [IMAGE 1]  star_back_1.jpg --> URL: https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjI3vnsuuTbAhWGtxQKHf3ZBj8QjRx6BAgBEAU&url=https%3A%2F%2Fblog.oup.com%2F2015%2F12%2Fblack-actors-star-wars%2F&psig=AOvVaw2PnHFGvhxdJgr7rgs4hOqq&ust=1529660302883785
 [IMAGE 2]  pink_floyd_band.jpg --> URL: https://wallpaper.wiki/wp-content/uploads/2017/05/Pink-Floyd-Band-Photo-Young-HD-Wallpaper.jpg

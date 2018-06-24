@@ -24,7 +24,7 @@ body {
     border: 0;
     margin: 0;
     padding: 0;
-    background-image: url("/Assets/stars_back_2.jpg ");
+    background-image: url("/Assets/stars_back_2.jpg");
     background-repeat: repeat;
     background-size: cover;
     -webkit-background-size: cover;
@@ -47,6 +47,12 @@ body {
     padding: 0;
 }
 
+.listen-container{
+    border: 0;
+    margin: 0;
+    padding-bottom: 50px;
+}
+
 .watch-container {
     border: 0;
     margin: 0;
@@ -67,14 +73,12 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #8d639c;
-
 }
 
 
 /*--------------------HEADER ALERT STYLES---*/
 
-.alert-bar {
+/*.alert-bar {
     border: 0;
     margin: 0;
     padding: 0;
@@ -94,8 +98,7 @@ body {
     font-family: "Julee", sans-serif;
     font-size: 24px;
     color: #7aa7d8;
-}
-
+}*/
 
 /*--------------------NAVIGATION BAR STYLES---*/
 
@@ -103,6 +106,7 @@ body {
     border: 0;
     margin: 0;
     padding: 0;
+    background-color: transparent;
 }
 
 .navbar-toggler {
@@ -117,7 +121,7 @@ body {
     margin: 0;
     padding: 5px 0 5px 0;
     width: 50px;
-    color: #8d639c;
+    color: #2f2d2f;
     font-size: 30px;
 }
 
@@ -149,12 +153,21 @@ body {
     border: 0;
     margin: 0;
     padding: 10px 15px 5px 0;
-    color: #8d639c;
+    color: #2f2d2f;
     font-size: 30px;
 }
 
 
 /*--------------------HOME SECTION STYLES---*/
+
+.index-gif {
+    width: 100%;
+}
+
+.index-img {
+    width: 100%;
+    height: 400px;
+}
 
 .site-title {
     border: 0;
@@ -164,7 +177,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #f8cfd6;
+    color: #fdfdfd;
 }
 
 .site-title h3 {
@@ -189,6 +202,54 @@ body {
     letter-spacing: 5px;
 }
 
+/*----LISTEN SECTION STYLES---*/
+
+.listen-col {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.listen-label {
+    border:0;
+    margin: 0;
+    padding: 40px 0 30px 0;
+    font-family: "Julee", sans-serif;
+    font-size: 25px;
+    color: #fdfdfd;
+    font-weight: bold;
+    text-align: center;
+}
+
+.listen-album-image{
+    border: 1px solid white;
+    padding:0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 270px;
+    height:250px
+}
+
+.listen-audio-control{
+    border:0;
+    padding:0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.listen-track-label {
+    border: 0;
+    margin: 0;
+    padding: 15px 70px 30px 70px;
+    font-family: "Julee", sans-serif;
+    text-align: center;
+    color: #93b1cd;
+    font-size: 20px;
+    font-weight: bold;
+}
+
 /*----WATCH SECTION STYLES---*/
 
 .watch-col {
@@ -203,7 +264,7 @@ body {
     padding: 30px 0 0 0;
     font-family: "Julee", sans-serif;
     font-size: 40px;
-    color: #f5c729;
+    color: #fdfdfd;
     font-weight: bold;
     text-align: center;
 }
@@ -214,13 +275,17 @@ body {
     padding: 20px 60px 0 60px;
 }
 
+#watch-border{
+    border:1px solid white;
+}
+
 .watch-video-label {
     border: 0;
     margin: 0;
     padding: 20px 70px 20px 70px;
     font-family: "Julee", sans-serif;
     text-align: center;
-    color: white;
+    color: #93b1cd;
     font-size: 16px;
     font-weight: bold;
 }
@@ -239,7 +304,7 @@ body {
     padding: 30px 0;
     font-family: "Julee", sans-serif;
     font-size: 40px;
-    color: #f5c729;
+    color: #fdfdfd;
     font-weight: bold;
     text-align: center;
 }
@@ -284,7 +349,7 @@ body {
     padding: 20px 0 10px 0;
     font-family: "Julee", sans-serif;
     text-align: center;
-    color: white;
+    color: #fdfdfd;
     font-size: 30px;
 }
 
@@ -312,10 +377,14 @@ body {
 
 /*--------------------FOOTER STYLES---*/
 
+.footer-bar {
+    background-color: #2f2d2f;
+}
+
 .footer-alert {
     border: 0;
     margin: 0;
-    padding: 10px 0 10px 0;
+    padding: 2px 0;
     border-radius: 0;
 
 }
@@ -323,7 +392,7 @@ body {
 .footer-alert a {
     text-decoration: none;
     text-align: center;
-    color: #f5c729;
+    color: #93b1cd;
     width: 100%;
     vertical-align: middle;
     font-family: "Julee", sans-serif;
@@ -333,34 +402,34 @@ body {
 
 .footer-links {
     margin-right: 0.75em;
-    padding: 5px 0 0 0;
+    padding: 0;
     text-decoration: none;
     text-align: center;
     color: #dad3d3;
     font-family: "Julee", sans-serif;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .social-links {
     border: 0;
     margin: 0;
-    padding: 9px 0 0 5px;
+    padding: 5px 0 0 0;
     float: left
 }
 
 .social-links li a {
-    margin-right: 0.75em;
+    margin-right: 0.25em;
 }
 
 .social-links li a i {
     margin-bottom: 5px;
     padding: 12px 0;
-    width: 32px;
-    height: 32px;
+    width: 25px;
+    height: 25px;
     border-radius: 50%;
-    line-height: 7px;
-    font-size: 20px;
+    line-height: 2px;
+    font-size: 15px;
     text-align: center;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
@@ -381,8 +450,8 @@ body {
 #item-instagram {
     background-color: #d12bd1;
     color: white;
-    width: 34px;
-    height: 34px;
+    width: 28px;
+    height: 28px;
 }
 
 #item-youtube {
@@ -396,20 +465,19 @@ body {
 
     /*----NAVIGATION BAR---*/
     .navbar {
-        background-color: #8d639c;
+        background-color: transparent;
     }
 
     .nav-item-link a i {
-        padding: 10px 0 10px 0;
-        color: #dad3d3;
+        padding: 15px 0 10px 0;
         font-size: 20px;
     }
 
     .nav-item-link span {
         padding: 0 0 5px 0;
         display: block;
-        color: #dad3d3;
         text-align: center;
+        color: #2f2d2f;
         font-family: "Julee", sans-serif;
         font-size: 20px;
         font-weight: 300;
@@ -417,6 +485,9 @@ body {
     }
 
     /*----HOME PAGE CONTENT---*/
+    .index-img {
+        height: 400px;
+    }
     .site-title {
         color: transparent;
         transition: all 3s ease-in-out;
@@ -426,7 +497,7 @@ body {
     }
 
     .site-title:hover {
-        color: #f8cfd6;
+        color: #fdfdfd;
     }
 
     .site-title h3 {
@@ -439,6 +510,16 @@ body {
         font-size: 50px;
         letter-spacing: 5px;
     }
+    
+    /*----LISTEN PAGE CONTENT---*/
+
+.listen-label {
+    font-size: 40px;
+}
+
+.listen-track-label {
+    font-size: 20px;
+}
 
     /*----WATCH PAGE CONTENT---*/
     .watch-col {
