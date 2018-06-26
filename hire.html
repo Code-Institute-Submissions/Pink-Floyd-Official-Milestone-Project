@@ -11,7 +11,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="/CSS/styles.css" type="text/css" />
-    <link rel="shortcut icon" href="/Assets/favicon4.ico"/>
+    <link rel="shortcut icon" href="/Assets/favicon4.ico" />
     <title>Pink Floyd Official - Home</title>
 </head>
 
@@ -21,53 +21,96 @@
         <div class="container-fluid header-container">
 
             <!------HIRE US ALERT-->
-           <!-- <div class="row alert-bar d-none d-md-block">
+            <!-- <div class="row alert-bar d-none d-md-block">
                 <div class="col-12 site-wide-alert">
                     <strong><a href="/hire.html" class="hvr-grow">Hire Us For Your Event</a></strong>
                 </div>-->
-            </div>
-            <!--HIRE US ALERT-->
+        </div>
+        <!--HIRE US ALERT-->
 
-            <!------NAVIGATION BAR-->
-
-            <div class="navbar-container">
-                <nav class="navbar navbar-expand-lg">
-                    <!--REFERENCE 1-->
-                    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#collapsible-navbar">
+        <!------NAVIGATION BAR-->
+        <nav class="navbar navbar-expand-lg">
+            <!--REFERENCE 1-->
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#collapsible-navbar">
                         <span class="toggle-btn"><i class="fa fa-bars fa-1x"></i></span>
                     </button>
-                    <!--REFERENCE 2-->
-                    <div class="collapse navbar-collapse" id="collapsible-navbar">
-                        <ul class="list-inline nav-bar-items"> <!-- navbar-nav-->
-                            <li class="list-inline-item nav-item-link">
-                                <a href="/index.html" class="hvr-grow"><i class="fa fa-home" aria-hidden="true"></i><span class="d-none d-lg-block">home</span></a>
-                            </li>
-                            <li class="list-inline-item nav-item-link"> <!--nav-item-->
-                                <a href="/listen.html" class="hvr-grow"><i class="fa fa-headphones" aria-hidden="true"></i><span class="d-none d-lg-block">listen</span></a>
-                            </li>
-                            <li class="list-inline-item nav-item-link">
-                                <a href="/watch.html" class="hvr-grow"><i class="fa fa-tv" aria-hidden="true"></i><span class="d-none d-lg-block">watch</span></a>
-                            </li>
-                            <li class="list-inline-item nav-item-link">
-                                <a href="/bio.html" class="hvr-grow"><i class="fa fa-book" aria-hidden="true"></i><span class="d-none d-lg-block">biography</span></a>
-                            </li>
-                            <li class="list-inline-item nav-item-link">
-                                <a href="/hire.html" class="hvr-grow"><i class="fa fa-music" aria-hidden="true"></i><span class="d-none d-lg-block">hire us</span></a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
+            <!--REFERENCE 2-->
+            <div class="collapse navbar-collapse" id="collapsible-navbar">
+                <ul class="list-inline nav-bar-items">
+                    <!-- navbar-nav-->
+                    <li class="list-inline-item nav-item-link">
+                        <a href="/index.html" class="hvr-grow"><i class="fa fa-home" aria-hidden="true"></i><span class="d-none d-lg-block">home</span></a>
+                    </li>
+                    <li class="list-inline-item nav-item-link">
+                        <!--nav-item-->
+                        <a href="/listen.html" class="hvr-grow"><i class="fa fa-headphones" aria-hidden="true"></i><span class="d-none d-lg-block">listen</span></a>
+                    </li>
+                    <li class="list-inline-item nav-item-link">
+                        <a href="/watch.html" class="hvr-grow"><i class="fa fa-tv" aria-hidden="true"></i><span class="d-none d-lg-block">watch</span></a>
+                    </li>
+                    <li class="list-inline-item nav-item-link">
+                        <a href="/bio.html" class="hvr-grow"><i class="fa fa-book" aria-hidden="true"></i><span class="d-none d-lg-block">biography</span></a>
+                    </li>
+                    <li class="list-inline-item nav-item-link">
+                        <a href="/hire.html" class="hvr-grow"><i class="fa fa-music" aria-hidden="true"></i><span class="d-none d-lg-block">hire us</span></a>
+                    </li>
+                </ul>
             </div>
-            <!------NAVIGATION BAR-->
+        </nav>
+        <!------NAVIGATION BAR-->
+
         </div>
     </header>
     <!--HEADER-->
 
     <!------SECTION-->
     <section>
-        <div class="container-fluid site-title">
-            <h3>Pink Floyd</h3>
-            <h6>Official Site</h6>
+        <div class="container-fluid hire-container">
+            <div class="row no-gutters">
+                <div class="col-12 col-lg-10 offset-lg-1">
+                    <p class="hire-form-text">Please fill in your contact details below and the date you would like to hire the band for and we will review your request:</p>
+                </div>
+            </div>
+
+            <div class="row no-gutters">
+
+                <div class="col-12 col-lg-6 offset-lg-1">
+                    <img src="/Assets/pulse_live.jpg" class="hire-img"></img>
+                </div>
+
+                <div class="col-12 col-lg-4">
+                    <form class="hire-form">
+
+                        <div>
+                            <label for="InputName" class="hire-form-label">Name:</label>
+                            <input type="name" class="form-control hire-form-box" id="InputName" aria-describedby="nameHelp" placeholder="Please enter your full name">
+                            <small id="nameHelp" class="hire-form-subtext">So we know who you are...</small>
+                        </div>
+
+                        <div>
+                            <label for="InputEmail" class="hire-form-label">Email:</label>
+                            <input type="email" class="form-control hire-form-box" id="InputEmail" aria-describedby="emailHelp" placeholder="Please enter your email">
+                            <small id="emailHelp" class="hire-form-subtext">So we can contact you...</small>
+                        </div>
+
+                        <div>
+                            <label for="InputDate" class="hire-form-label">Date:</label>
+                            <input type="date" class="form-control hire-form-box" id="InputDATE" aria-describedby="datelHelp">
+                            <small id="dateHelp" class="hire-form-subtext">So we know when to play...</small>
+                        </div>
+
+                        <div>
+                            <label for="InputComments" class="hire-form-label">Additional Comments:</label>
+                            <input type="text" class="form-control hire-form-box" id="InputComments">
+                        </div>
+                        
+                        <button type="submit" class="btn hire-submit">Submit</button>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!--REFERENCE 7-->
         </div>
     </section>
 
@@ -98,7 +141,6 @@
             <!--SOCIAL MEDIA LINKS-->
         </div>
     </footer>
-    <!--FOOTER-->
     <!--FOOTER-->
 
 </body>
