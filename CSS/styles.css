@@ -1,7 +1,10 @@
-/*------------------------------------------SITE FONT STYLES---*/
+
+/*------------------------------------------GLOBAL STYLES---*/
 
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker|Julee:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
+
+.col-xs-12,.col-sm-12,.col-3,.col-12,.col-md-4,.col-md-6,.col-lg-2,.col-lg-4,.col-lg-6,.col-lg-8,.col-lg-9,.col-lg-10{width: 100%;} 
 
 /*--------------------------------------HOVER EFFECT STYLES---*/
 
@@ -12,67 +15,24 @@
     -o-transition: all 0.5s ease-in-out;
 }
 
-
 /*----------------------------------BACKGROUND IMAGE STYLES---*/
 
-body,
-html {
+body, html {
     height: 100%
 }
 
-/*--REFERENCE 4*/
 
 body {
-    border: 0;
-    margin: 0;
-    padding: 0;
-    background-image: url("/Assets/stars_back_2.jpg");
+    background-image: url("/Assets/Images/stars_back_2.jpg");
     background-repeat: repeat;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-}
+}/*--REFERENCE 4*/
 
 
 /*---------------------------------------CONTAINER STYLES---*/
-
-.header-container {
-    border: 0;
-    margin: 0;
-    padding: 0;
-}
-
-.listen-container {
-    border: 0;
-    margin: 0;
-    padding-bottom: 50px;
-}
-
-.index-container {
-    border: 0;
-    margin: 0;
-    padding-bottom: 0;
-}
-
-.watch-container {
-    border: 0;
-    margin: 0;
-    padding-bottom: 100px;
-}
-
-.bio-container {
-    border: 0;
-    margin: 0;
-    padding-bottom: 50px;
-}
-
-.hire-container {
-    border: 0;
-    margin: 0;
-    padding: 0;
-    padding-bottom: 100px;
-}
 
 .footer-container {
     border: 0;
@@ -112,21 +72,17 @@ body {
 /*------------------------------------NAVIGATION BAR STYLES---*/
 
 .navbar {
-    border: 0;
-    margin: 0;
     padding: 0;
     background-color: transparent;
 }
 
 .navbar-toggler {
-    border: 0;
     margin-top: 5px;
     padding: 0;
     border-color: transparent;
 }
 
 .toggle-btn i {
-    border: 0;
     margin: 0;
     padding: 5px 5px 5px 0;
     width: 50px;
@@ -135,9 +91,7 @@ body {
 }
 
 .nav-bar-items {
-    border: 0;
     margin: 0;
-    padding: 0;
     width: 100%;
     float: left;
     text-align: center;
@@ -145,22 +99,17 @@ body {
 }
 
 .list-inline .nav-item-link {
-    border: 0;
     margin: 0;
-    padding: 0;
     width: 20%;
     float: left;
 }
 
 .nav-item-link a {
-    margin: 0;
     text-decoration: none;
 }
 
 .nav-item-link a i {
-    border: 0;
-    margin: 0;
-    padding: 10px 15px 5px 0;
+    padding: 30% 15% 5% 0;
     color: #93b1cd;
     font-size: 30px;
 }
@@ -169,20 +118,22 @@ body {
 /*------------------------HOME SECTION STYLES---*/
 
 .site-title {
-    border: 0;
-    margin: 0;
-    padding: 0;
+    width: 100%;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: #fdfdfd;
+    animation: fadein 10s;
+    /*REFERENCE 8*/
+    -webkit-animation: fadein 10s;
+    -moz-animation: fadein 10s;
+    -ms-animation: fadein 10s;
+    -o-animation: fadein 10s;
 }
 
 .main-title {
-    border: 0;
-    margin: 0;
-    padding-top: 0;
+    margin:0;
     text-align: center;
     font-family: "Permanent Marker", sans-serif;
     font-size: 45px;
@@ -191,9 +142,7 @@ body {
 }
 
 .sub-title {
-    margin: 0;
-    border: 0;
-    padding: 0;
+    margin:0;
     text-align: center;
     font-family: "Permanent Marker", sans-serif;
     font-size: 25px;
@@ -203,18 +152,11 @@ body {
 
 /*---------------------------LISTEN SECTION STYLES---*/
 
-.listen-col {
-    border: 0;
-    margin: 0;
-    padding: 0;
-}
-
 .listen-label {
-    border: 0;
     margin: 0;
-    padding: 40px 0 30px 0;
+    padding: 3% 5% 3% 5%;
     font-family: "Julee", sans-serif;
-    font-size: 25px;
+    font-size: 40px;
     color: #fdfdfd;
     font-weight: bold;
     text-align: center;
@@ -232,35 +174,35 @@ body {
 
 .listen-audio-control {
     border: 0;
-    padding-top: 10px;
+    padding-top: 2%;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
 .listen-track-label {
-    border: 0;
-    margin: 0;
-    padding: 20px 70px 25px 70px;
+    margin:0;
+    padding: 6% 0 10% 0;
     font-family: "Julee", sans-serif;
     text-align: center;
     color: #93b1cd;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
+}
+
+#listen-top-row {
+    padding-top: 3%;
+}
+
+#listen-bottom-row {
+    padding-bottom: 8%;
 }
 
 /*------------------------------WATCH SECTION STYLES---*/
 
-.watch-col {
-    border: 0;
-    margin: 0;
-    padding: 0;
-}
-
 .watch-label {
-    border: 0;
     margin: 0;
-    padding: 30px 0 0 0;
+    padding: 3% 0;
     font-family: "Julee", sans-serif;
     font-size: 40px;
     color: #fdfdfd;
@@ -269,19 +211,13 @@ body {
 }
 
 .watch-video {
-    border: 0;
-    margin: 0;
-    padding: 20px 60px 0 60px;
-}
-
-#watch-border {
     border: 1px solid white;
+    width: 90%;
+    margin: 0 5%;
 }
 
 .watch-video-label {
-    border: 0;
-    margin: 0;
-    padding: 20px 70px 20px 70px;
+    margin: 3% 0 5% 0;
     font-family: "Julee", sans-serif;
     text-align: center;
     color: #93b1cd;
@@ -289,19 +225,19 @@ body {
     font-weight: bold;
 }
 
-/*----------------------------BIOGRAPHY SECTION STYLES---*/
-
-.bio-col {
-    border: 0;
-    margin: 0;
-    padding: 0;
+#watch-top-row {
+    padding-top: 3%;
 }
 
+#watch-bottom-row {
+    padding-bottom: 8%;
+}
+
+/*----------------------------BIOGRAPHY SECTION STYLES---*/
 
 .bio-label {
-    border: 0;
     margin: 0;
-    padding: 30px 0;
+    padding: 3% 0 5% 0;
     font-family: "Julee", sans-serif;
     font-size: 40px;
     color: #fdfdfd;
@@ -311,42 +247,32 @@ body {
 
 .bio-band-img {
     border: 1px solid white;
-    margin: 0 35px 30px 35px;
-    padding: 0;
+    margin: 0 10%;
     height: 100%;
-    width: 82%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    width: 80%;
 }
 
 .bio-band-info {
-    border: 0;
-    margin: 0;
-    padding: 20px 35px 0 35px;
+    margin: 5% 10%;
     font-family: "Julee", sans-serif;
     font-size: 20px;
     color: #93b1cd;
     text-align: justify;
     font-weight: 700;
+    
 }
 
 
 .bio-member-img {
     border: 1px solid white;
-    margin: 0;
+    margin: 0 10%;
     padding: 0;
     height: 100%;
     width: 80%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .bio-member-name {
-    border: 0;
-    margin: 0;
-    padding: 20px 0 10px 0;
+    margin: 5% 0 3% 0;
     font-family: "Julee", sans-serif;
     text-align: center;
     color: #fdfdfd;
@@ -354,9 +280,8 @@ body {
 }
 
 .bio-member-info {
-    border: 0;
-    margin: 0;
-    padding: 0 35px 40px 35px;
+    margin: 5% 10% 10% 10%;
+    padding: 0 ;
     font-family: "Julee", sans-serif;
     font-size: 20px;
     color: #93b1cd;
@@ -374,17 +299,19 @@ body {
     color: #007bff;
 }
 
+#bio-top-row {
+    padding-top: 3%;
+}
+
+#bio-bottom-row {
+    padding-bottom: 8%;
+}
 
 /*----------------------------HIRE SECTION STYLES---*/
 
-.hire-form {
-    margin-top: 20px;
-}
-
-
 .hire-form-text {
-    margin: 0 5%;
-    padding: 30px 0 20px 0;
+    margin: 0;
+    padding: 3% 5% 3% 5%;
     font-family: "Julee", sans-serif;
     font-size: 20px;
     color: #fdfdfd;
@@ -429,7 +356,6 @@ body {
     color: #fdfdfd;
 }
 
-
 .hire-form-box:active {
     background-color: #656465;
     color: #fdfdfd;
@@ -446,7 +372,7 @@ body {
 }
 
 .hire-submit {
-    margin-top: 30px;
+    margin-top: 8%;
     margin-left: 25%;
     width: 50%;
     background-color: #93b1cd;
@@ -457,8 +383,13 @@ body {
     padding: 5px 0;
 }
 
+#hire-top-row {
+    padding-top: 3%;
+}
 
-
+#hire-bottom-row {
+    padding-bottom: 15%;
+}
 
 /*-------------------------------------FOOTER STYLES---*/
 
@@ -489,7 +420,7 @@ body {
     padding: 0;
     text-decoration: none;
     text-align: center;
-    color: #dad3d3;
+    color: #fdfdfd;
     font-family: "Julee", sans-serif;
     font-weight: 700;
     font-size: 15px;
@@ -561,56 +492,61 @@ body {
         font-size: 40px;
         letter-spacing: 5px;
     }
-
-    /*------------------------------LISTEN PAGE CONTENT---*/
-    .listen-label {
-        font-size: 35px;
-    }
-
+    
     /*------------------------------WATCH PAGE CONTENT---*/
+    
     .watch-video-label {
-        margin: 20px 0;
-        padding: 0 70px;
         font-size: 25px;
     }
+    
+    #watch-bottom-row {
+    padding-bottom: 6%;
+}
 
     /*----------------------------------BIO PAGE CONTENT---*/
+    
     .bio-band-img {
+        margin:0 5%;
         width: 90%;
     }
+    
+    .bio-band-info {
+    margin: 5%;
+}
 
     .bio-member-img {
-        margin: 8px 10px 30px 35px;
+        margin:0 0 15% 15%;
         padding: 0;
         height: 200px;
-
     }
 
     .bio-member-name {
-        padding: 5px 0 10px 20px;
         text-align: left;
+        margin:-1% 0 3% 8%;
     }
 
     .bio-member-info {
-        padding: 0 30px 40px 20px;
+        margin: 1% 8% 0 8%;
         font-size: 18px;
     }
+    
+    #bio-bottom-row {
+    padding-bottom: 4%;
+}
 
     /*----------------------------------HIRE PAGE CONTENT---*/
+    
     .hire-form-text {
         font-size: 25px;
     }
-
+    
     .hire-submit {
-        margin-top: 30px;
         margin-left: 35%;
         width: 30%;
-        background-color: #93b1cd;
-        font-family: "Julee", sans-serif;
-        font-size: 15px;
-        font-weight: bold;
-        color: black;
-        padding: 5px 0;
+    }
+    
+    #hire-bottom-row {
+        padding-bottom: 8%;
     }
 }
 
@@ -627,7 +563,6 @@ body {
     }
 
     .nav-item-link span {
-        padding: 0 0 5px 0;
         display: block;
         text-align: center;
         color: #93b1cd;
@@ -638,18 +573,7 @@ body {
     }
 
     /*------------------------------HOME PAGE CONTENT---*/
-    .site-title {
-        color: transparent;
-        transition: all 3s ease-in-out;
-        -webkit-transition: all 5s ease-in-out;
-        -moz-transition: all 5s ease-in-out;
-        -o-transition: all 5s ease-in-out;
-    }
-
-    .site-title:hover {
-        color: #fdfdfd;
-    }
-
+    
     .main-title {
         font-size: 100px;
         letter-spacing: 15px;
@@ -660,57 +584,58 @@ body {
         letter-spacing: 5px;
     }
 
-    /*---------------------------LISTEN PAGE CONTENT---*/
-    .listen-label {
-        font-size: 40px;
-    }
-
-    .listen-track-label {
-        font-size: 20px;
-    }
-
     /*-------------------------------WATCH PAGE CONTENT---*/
-    .watch-label {
-        padding: 40px 0;
-        font-size: 40px;
-    }
-
-    .watch-video {
-        border: 0;
-        margin: 0;
-        padding: 0 70px 10px 70px;
-    }
-
+    
     .watch-video-label {
-        padding: 0 70px;
-        font-size: 25px;
+        margin: 2% 0 2% 0;
     }
 
     /*----------------------------------BIO PAGE CONTENT---*/
+    
+    .bio-label {
+        margin: 0;
+        padding: 3% 0;
+    }
+
     .bio-band-img {
-        margin-top: 8px;
-        margin-left: 35px;
+        margin: 2% 0% 0 10%;
         padding: 0;
         width: 90%;
         height: 96%;
     }
 
     .bio-band-info {
-        padding: 0 20px;
+        margin: 0 5%;
+    }
+
+    .bio-member-img {
+        margin: 0 0 25% 0;
+    }
+
+    #bio-left-member-img {
+        margin: 0 0 25% 20%;
+    }
+
+    .bio-member-name {
+        margin: -1% 0 0 0%;
+    }
+
+    #bio-left-member-name {
+        margin: -1% 0 0 10%;
     }
 
     .bio-member-info {
+        margin: 1% 10% 0 0%;
         font-size: 15px;
     }
 
-    /*----------------------------------HIRE PAGE CONTENT---*/
-    .hire-form {
-        margin-top: 20px;
-        margin-right: 0;
+    #bio-left-member-info {
+        margin: 1% 10% 0 10%;
     }
 
+    /*----------------------------------HIRE PAGE CONTENT---*/
+
     .hire-form-text {
-        margin: 0;
         font-size: 30px;
     }
 
@@ -723,24 +648,26 @@ body {
     .hire-form-label {
         margin-right: 0;
         width: 80%;
+        font-size: 18px;
     }
 
     .hire-form-box {
         margin-right: 0;
         padding: 10px;
         width: 80%;
+        font-size: 18px;
     }
 
     .hire-form-subtext {
         margin-left: 20%;
         width: 80%;
+        font-size: 15px;
     }
 
     .hire-submit {
         margin-left: 30%;
         width: 60%;
     }
-
 }
 
 /*---------------------------------
@@ -750,39 +677,83 @@ body {
 @media(min-width: 1220px) {
 
     /*----------------------------------BIO PAGE CONTENT---*/
+    
     .bio-member-info {
         font-size: 16px;
     }
 
     /*----------------------------------HIRE PAGE CONTENT---*/
+    
+    .hire-form-text {
+        text-align: center;
+    }
+
     .hire-img {
-        margin: 12px 0;
+        margin: 2% 0;
         height: 100%;
     }
 
     .hire-form-label {
-        margin-right: 0;
-        width: 80%;
         font-size: 25px;
     }
 
     .hire-form-box {
-        margin-right: 0;
-        padding: 10px;
-        width: 80%;
         font-size: 25px;
     }
 
     .hire-form-subtext {
-        margin-left: 20%;
-        width: 80%;
         font-size: 20px;
     }
 
     .hire-submit {
-        margin-left: 30%;
-        width: 60%;
         font-size: 25px;
     }
+}
 
+/*---------------------------------
+------------------------------------KEYFRAMES-------------*/
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}/* Firefox < 16 */
+
+@-webkit-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}/* Safari, Chrome and Opera > 12.1 */
+
+@-ms-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}/* Internet Explorer */
+
+@-o-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }/* Opera < 12.1 */
 }
