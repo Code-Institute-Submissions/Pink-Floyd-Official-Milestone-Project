@@ -616,7 +616,7 @@ body {
         margin: 0 0 25% 0;
     }
 
-    #bio-left-member-img {
+    .bio-left-member-img {
         margin: 0 0 25% 20%;
     }
 
@@ -624,7 +624,7 @@ body {
         margin: -1% 0 0 0%;
     }
 
-    #bio-left-member-name {
+    .bio-left-member-name {
         margin: -1% 0 0 10%;
     }
 
@@ -633,7 +633,7 @@ body {
         font-size: 15px;
     }
 
-    #bio-left-member-info {
+    .bio-left-member-info {
         margin: 1% 10% 0 10%;
     }
 
