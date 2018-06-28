@@ -1,10 +1,22 @@
-
 /*------------------------------------------GLOBAL STYLES---*/
 
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker|Julee:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
 
-.col-xs-12,.col-sm-12,.col-3,.col-12,.col-md-4,.col-md-6,.col-lg-2,.col-lg-4,.col-lg-6,.col-lg-8,.col-lg-9,.col-lg-10{width: 100%;} 
+.col-xs-12,
+.col-sm-12,
+.col-3,
+.col-12,
+.col-md-4,
+.col-md-6,
+.col-lg-2,
+.col-lg-4,
+.col-lg-6,
+.col-lg-8,
+.col-lg-9,
+.col-lg-10 {
+    width: 100%;
+}
 
 /*--------------------------------------HOVER EFFECT STYLES---*/
 
@@ -17,7 +29,8 @@
 
 /*----------------------------------BACKGROUND IMAGE STYLES---*/
 
-body, html {
+body,
+html {
     height: 100%
 }
 
@@ -29,21 +42,9 @@ body {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-}/*--REFERENCE 4*/
-
-
-/*---------------------------------------CONTAINER STYLES---*/
-
-.footer-container {
-    border: 0;
-    margin: 0;
-    padding: 0;
-    position: fixed;
-    left: 0;
-    right: 0;
-    bottom: 0;
 }
 
+/*--REFERENCE 4*/
 
 /*--------------------------------------HEADER ALERT STYLES---*/
 
@@ -77,15 +78,12 @@ body {
 }
 
 .navbar-toggler {
-    margin-top: 5px;
+    margin: 2% 3% 3% 0;
     padding: 0;
     border-color: transparent;
 }
 
 .toggle-btn i {
-    margin: 0;
-    padding: 5px 5px 5px 0;
-    width: 50px;
     color: #656465;
     font-size: 30px;
 }
@@ -111,7 +109,7 @@ body {
 .nav-item-link a i {
     padding: 30% 15% 5% 0;
     color: #93b1cd;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 
@@ -124,16 +122,15 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     color: #fdfdfd;
-    animation: fadein 10s;
-    /*REFERENCE 8*/
-    -webkit-animation: fadein 10s;
-    -moz-animation: fadein 10s;
-    -ms-animation: fadein 10s;
-    -o-animation: fadein 10s;
+    animation: flickerAnimation 8s infinite alternate ease-in-out; /*--REFERENCE 8--*/
+    -webkit-animation: flickerAnimation 8s infinite alternate ease-in-out;
+    -moz-animation: flickerAnimation 8s infinite alternate ease-in-out;
+    -ms-animation: flickerAnimation 8s infinite alternate ease-in-out;
+    -o-animation: flickerAnimation 8s infinite alternate v;
 }
 
 .main-title {
-    margin:0;
+    margin: 0;
     text-align: center;
     font-family: "Permanent Marker", sans-serif;
     font-size: 45px;
@@ -142,7 +139,7 @@ body {
 }
 
 .sub-title {
-    margin:0;
+    margin: 0;
     text-align: center;
     font-family: "Permanent Marker", sans-serif;
     font-size: 25px;
@@ -181,7 +178,7 @@ body {
 }
 
 .listen-track-label {
-    margin:0;
+    margin: 0;
     padding: 6% 0 10% 0;
     font-family: "Julee", sans-serif;
     text-align: center;
@@ -230,7 +227,7 @@ body {
 }
 
 #watch-bottom-row {
-    padding-bottom: 8%;
+    padding-bottom: 10%;
 }
 
 /*----------------------------BIOGRAPHY SECTION STYLES---*/
@@ -259,9 +256,8 @@ body {
     color: #93b1cd;
     text-align: justify;
     font-weight: 700;
-    
-}
 
+}
 
 .bio-member-img {
     border: 1px solid white;
@@ -281,7 +277,7 @@ body {
 
 .bio-member-info {
     margin: 5% 10% 10% 10%;
-    padding: 0 ;
+    padding: 0;
     font-family: "Julee", sans-serif;
     font-size: 20px;
     color: #93b1cd;
@@ -393,23 +389,24 @@ body {
 
 /*-------------------------------------FOOTER STYLES---*/
 
-.footer-bar {
+.footer-container {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
     background-color: #656465;
 }
 
 .footer-alert {
-    border: 0;
-    margin: 0;
-    padding: 2px 0;
-    border-radius: 0;
+    padding: 0;
 }
 
 .footer-alert a {
+    padding: 1px 0 1px 0;
     text-decoration: none;
     text-align: center;
     color: #93b1cd;
     width: 100%;
-    vertical-align: middle;
     font-family: "Julee", sans-serif;
     font-size: 24px;
     font-weight: 700;
@@ -427,10 +424,9 @@ body {
 }
 
 .social-links {
-    border: 0;
     margin: 0;
-    padding: 5px 0 0 0;
-    float: left
+    padding: 5px 10% 1px 0;
+    float: right;
 }
 
 .social-links li a {
@@ -446,10 +442,6 @@ body {
     line-height: 2px;
     font-size: 15px;
     text-align: center;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
 }
 
 #item-facebook {
@@ -482,6 +474,18 @@ body {
 
 @media(min-width: 768px) {
 
+    /*------------------------------------NAVIGATION BAR---*/
+    .toggle-btn i {
+        font-size: 40px;
+    }
+
+    .nav-item-link a i {
+        padding: 30% 15% 5% 0;
+        color: #93b1cd;
+        font-size: 30px;
+    }
+
+
     /*---------------------------------HOME PAGE CONTENT---*/
     .main-title {
         font-size: 60px;
@@ -492,62 +496,60 @@ body {
         font-size: 40px;
         letter-spacing: 5px;
     }
-    
+
     /*------------------------------WATCH PAGE CONTENT---*/
-    
     .watch-video-label {
         font-size: 25px;
     }
-    
+
     #watch-bottom-row {
-    padding-bottom: 6%;
-}
+        padding-bottom: 6%;
+    }
 
     /*----------------------------------BIO PAGE CONTENT---*/
-    
     .bio-band-img {
-        margin:0 5%;
+        margin: 0 5%;
         width: 90%;
     }
-    
+
     .bio-band-info {
-    margin: 5%;
-}
+        margin: 5%;
+    }
 
     .bio-member-img {
-        margin:0 0 15% 15%;
+        margin: 0 0 15% 15%;
         padding: 0;
         height: 200px;
     }
 
     .bio-member-name {
         text-align: left;
-        margin:-1% 0 3% 8%;
+        margin: -1% 0 3% 8%;
     }
 
     .bio-member-info {
         margin: 1% 8% 0 8%;
         font-size: 18px;
     }
-    
+
     #bio-bottom-row {
-    padding-bottom: 4%;
-}
+        padding-bottom: 4%;
+    }
 
     /*----------------------------------HIRE PAGE CONTENT---*/
-    
     .hire-form-text {
         font-size: 25px;
     }
-    
+
     .hire-submit {
         margin-left: 35%;
         width: 30%;
     }
-    
+
     #hire-bottom-row {
         padding-bottom: 8%;
     }
+
 }
 
 /*-------------------------------
@@ -558,8 +560,8 @@ body {
 
     /*----------------------------------NAVIGATION BAR---*/
     .nav-item-link a i {
-        padding: 15px 0 10px 0;
-        font-size: 20px;
+        padding: 20px 0 10px 0;
+        font-size: 25px;
     }
 
     .nav-item-link span {
@@ -573,7 +575,6 @@ body {
     }
 
     /*------------------------------HOME PAGE CONTENT---*/
-    
     .main-title {
         font-size: 100px;
         letter-spacing: 15px;
@@ -584,21 +585,24 @@ body {
         letter-spacing: 5px;
     }
 
+    /*-------------------------------LISTEN PAGE CONTENT---*/
+    #listen-bottom-row {
+        padding-bottom: 6%;
+    }
+
     /*-------------------------------WATCH PAGE CONTENT---*/
-    
     .watch-video-label {
         margin: 2% 0 2% 0;
     }
 
     /*----------------------------------BIO PAGE CONTENT---*/
-    
     .bio-label {
         margin: 0;
         padding: 3% 0;
     }
 
     .bio-band-img {
-        margin: 2% 0% 0 10%;
+        margin: 1% 0% 0 10%;
         padding: 0;
         width: 90%;
         height: 96%;
@@ -634,15 +638,14 @@ body {
     }
 
     /*----------------------------------HIRE PAGE CONTENT---*/
-
     .hire-form-text {
         font-size: 30px;
     }
 
     .hire-img {
-        margin: 10% 0;
+        margin-top: 1%;
+        height: 100%;
         width: 100%;
-        height: 80%;
     }
 
     .hire-form-label {
@@ -677,20 +680,13 @@ body {
 @media(min-width: 1220px) {
 
     /*----------------------------------BIO PAGE CONTENT---*/
-    
     .bio-member-info {
         font-size: 16px;
     }
 
     /*----------------------------------HIRE PAGE CONTENT---*/
-    
     .hire-form-text {
         text-align: center;
-    }
-
-    .hire-img {
-        margin: 2% 0;
-        height: 100%;
     }
 
     .hire-form-label {
@@ -712,48 +708,19 @@ body {
 
 /*---------------------------------
 ------------------------------------KEYFRAMES-------------*/
-
-@keyframes fadein {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
+@keyframes flickerAnimation {
+  0%   { opacity:0; }
+  100%  { opacity:1; }
 }
-
-@-moz-keyframes fadein {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}/* Firefox < 16 */
-
-@-webkit-keyframes fadein {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}/* Safari, Chrome and Opera > 12.1 */
-
-@-ms-keyframes fadein {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}/* Internet Explorer */
-
-@-o-keyframes fadein {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }/* Opera < 12.1 */
+@-o-keyframes flickerAnimation{
+   0%   { opacity:0; }
+  100%  { opacity:1; }
+}
+@-moz-keyframes flickerAnimation{
+   0%   { opacity:0; }
+  100%  { opacity:1; }
+}
+@-webkit-keyframes flickerAnimation{
+   0%   { opacity:0; }
+  100%  { opacity:1; }
 }
