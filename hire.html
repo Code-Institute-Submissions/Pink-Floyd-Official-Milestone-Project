@@ -74,17 +74,17 @@
                 </div>
 
                 <div class="col-12 col-lg-4">
-                    <form class="hire-form">
+                    <form class="hire-form" id="hireForm">
 
                         <div>
                             <label for="InputName" class="hire-form-label">Name:</label>
-                            <input type="text" class="form-control hire-form-box" id="InputName" aria-describedby="nameHelp" placeholder="Please enter your full name">
+                            <input type="text" class="form-control hire-form-box" id="InputName" aria-describedby="nameHelp" placeholder="Please enter your full name" autocomplete="off">
                             <small id="nameHelp" class="hire-form-subtext">So we know who you are...</small>
                         </div>
 
                         <div>
                             <label for="InputEmail" class="hire-form-label">Email:</label>
-                            <input type="email" class="form-control hire-form-box" id="InputEmail" aria-describedby="emailHelp" placeholder="Please enter your email">
+                            <input type="email" class="form-control hire-form-box" id="InputEmail" aria-describedby="emailHelp" placeholder="Please enter your email" autocomplete="off">
                             <small id="emailHelp" class="hire-form-subtext">So we can contact you...</small>
                         </div>
 
@@ -96,7 +96,7 @@
 
                         <div>
                             <label for="InputComments" class="hire-form-label">Additional Comments:</label>
-                            <input type="text" class="form-control hire-form-box" id="InputComments">
+                            <input type="text" class="form-control hire-form-box" id="InputComments" autocomplete="off">
                         </div>
                         
                         <button type="button" class="btn hire-submit" onclick="submitRequest()" id="submit_request">Submit</button>
@@ -106,12 +106,14 @@
                                 document.getElementById("submit_request").innerHTML = "Request Sent!";
                                 document.getElementById("submit_request").style.backgroundColor = "#fdfdfd";
                                 document.getElementById("submit_request").style.color = '#93b1cd';
+                                document.forms["hireForm"].reset();
                             }
                         </script> <!-- REFERENCE 9-->
                         
                         <noscript> Sorry, your browser does not support JavaScript!</noscript>
  
                         </form>
+>
                 </div>
             </div>
         <!--REFERENCE 7-->
