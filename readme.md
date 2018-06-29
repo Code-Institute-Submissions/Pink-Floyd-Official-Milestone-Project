@@ -1,4 +1,4 @@
-<!--[REFERENCE 1] Collapsible navbar code   URL:(https://www.w3schools.com/bootstrap4/tryit.asp?filename=trybs_navbar_collapse&stacked=h)
+[REFERENCE 1] Collapsible navbar code   URL:(https://www.w3schools.com/bootstrap4/tryit.asp?filename=trybs_navbar_collapse&stacked=h)
 [REFERENCE 2] Collapsible Navbar button URL:(https://mdbootstrap.com/components/bootstrap-hamburger-menu/)
 [REFERENCE 3] Adding images to page tab URL:(https://stackoverflow.com/questions/20900670/how-to-add-an-image-in-the-title-bar-using-html/20900719)
 [REFERENCE 4] Covering background image URL:(https://www.w3schools.com/howto/howto_css_full_page.asp)
@@ -17,4 +17,4 @@
 [IMAGE 7]  rick_wright.jpg              URL: https://78.media.tumblr.com/5db6e29dc466ad84425a622dcbe0a8cb/tumblr_p6d6ukvGq21t2fw1ho1_r1_500.jpg
 [IMAGE 8]  pulse_live.jpg               URL: https://www.google.co.uk/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiQ1vW5k_HbAhVHxRQKHag-AdMQjRx6BAgBEAU&url=https%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0110758%2Fmediaviewer%2Frm1172909824&psig=AOvVaw33lm5QIpcGCL8wxfSQJFFm&ust=1530096362001648
 
-tw_2    URL: http://www.magicfmalgarve.com/wp-content/uploads/2017/12/pink-floyd-the-wall-art-amazing-pink-the-wall-art-artwork-artist-prints-article-animation-s-pink-floyd-the-wall-album-cover-images.jpg-->
+tw_2    URL: http://www.magicfmalgarve.com/wp-content/uploads/2017/12/pink-floyd-the-wall-art-amazing-pink-the-wall-art-artwork-artist-prints-article-animation-s-pink-floyd-the-wall-album-cover-images.jpg
