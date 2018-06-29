@@ -12,7 +12,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
     <link rel="shortcut icon" href="assets/images/favicon4.ico" />
-    <title>Pink Floyd Official - Home</title>
+    <title>Pink Floyd Official - Hire</title>
 </head>
 
 <body>
@@ -98,8 +98,20 @@
                             <label for="InputComments" class="hire-form-label">Additional Comments:</label>
                             <input type="text" class="form-control hire-form-box" id="InputComments">
                         </div>
-                        <button type="submit" class="btn hire-submit">Submit</button>
-                    </form>
+                        
+                        <button type="button" class="btn hire-submit" onclick="submitRequest()" id="submit_request">Submit</button>
+                        
+                        <script>
+                            function submitRequest() {
+                                document.getElementById("submit_request").innerHTML = "Request Sent!";
+                                document.getElementById("submit_request").style.backgroundColor = "#fdfdfd";
+                                document.getElementById("submit_request").style.color = '#93b1cd';
+                            }
+                        </script> <!-- REFERENCE 9-->
+                        
+                        <noscript> Sorry, your browser does not support JavaScript!</noscript>
+ 
+                        </form>
                 </div>
             </div>
         <!--REFERENCE 7-->
@@ -134,6 +146,9 @@
     </footer>
     <!--FOOTER-->
 
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    
 </body>
 
 </html>

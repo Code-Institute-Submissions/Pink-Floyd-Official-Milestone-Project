@@ -6,7 +6,7 @@
 [REFERENCE 6] Embed MP3 on page         URL:(https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_audio_all)
 [REFERENCE 7] Bootstrap form            URL:(https://getbootstrap.com/docs/4.0/components/forms/)
 [REFERENCE 8] flicker animation         URL:(https://stackoverflow.com/questions/23985018/simple-css-animation-loop-fading-in-out-loading-text/31458204)
-
+[REFERENCE 9] implement js in html     URL:  https://www.w3schools.com/js/tryit.asp?filename=tryjs_whereto_body
 
 [IMAGE 1]  star_back_1.jpg              URL: https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjI3vnsuuTbAhWGtxQKHf3ZBj8QjRx6BAgBEAU&url=https%3A%2F%2Fblog.oup.com%2F2015%2F12%2Fblack-actors-star-wars%2F&psig=AOvVaw2PnHFGvhxdJgr7rgs4hOqq&ust=1529660302883785
 [IMAGE 2]  pink_floyd_band.jpg          URL: https://wallpaper.wiki/wp-content/uploads/2017/05/Pink-Floyd-Band-Photo-Young-HD-Wallpaper.jpg
