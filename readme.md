@@ -1,33 +1,33 @@
-# Pink Floyd Official Site 
+# Pink Floyd Official Site: Milestone Project 
 
-## User Centric Frontend Development Milestone Project
+## Project Concept
 
 
-### Project Concept and planning
-
+## Project Planning
 The following outlines the initial plan for the User Centric Frontend development Milestone project based on building a static website for a 1960’s rock band. I’ve chosen ‘Pink Floyd’ because of the wealth of material available and the diverse and interesting imagery used by the band. 
 Conducted 15/6/2018.
-#### Strategy Plane 
+
+### Strategy Plane 
 
 The business and customer objectives will be defined within this section.
 
-##### Business Objectives
+#### Business Objectives
 
-*Who are our target audience?*  Current and potential fans
-*What is compelling site visitors to come to the site?* The opportunity to see and hear music from the back catalogue and from the latest releases. Additionally, the opportunity to hire the band to perform at events.
-*Why is this site different from our competitors?* This is the ‘official’ band site therefore new material releases from the band will debut here first. Additionally, allowing fans to hire the band to perform at events and functions. 
+* *Who are our target audience?*  Current and potential fans
+* *What is compelling site visitors to come to the site?* The opportunity to see and hear music from the back catalogue and from the latest releases. Additionally, the opportunity to hire the band to perform at events.
+* *Why is this site different from our competitors?* This is the ‘official’ band site therefore new material releases from the band will debut here first. Additionally, allowing fans to hire the band to perform at events and functions. 
 
-*Baseline business objectives:*
+##### Baseline business objectives:
 *	Showcase band materials (music and videos)
 *	Allow band hiring for events and functions (weddings and Xmas parties).
 *	Increase fan base
 *	Increase online presence
 
-##### User Objectives
+#### User Objectives
 
-*What content are you wanting on the site?*  Band information, tour dates, biographies, music catalogue and videos, additional links and information.
+* *What content are you wanting on the site?*  Band information, tour dates, biographies, music catalogue and videos, additional links and information.
 
-*Baseline user needs:*
+##### Baseline user needs:
 *	Access to new releases and music back catalogue 
 *	Videos of the band performing
 *	Images of the band/members
@@ -40,7 +40,7 @@ The business and customer objectives will be defined within this section.
 
 Combining the baseline business and user requirements produces the baseline requirements for the project:
 
-*Baseline requirements:*
+
 *	Music and videos
 *	Band hire
 *	Image gallery
@@ -49,7 +49,7 @@ Combining the baseline business and user requirements produces the baseline requ
 *	Social media links 
 *	Tour dates and ticket links
 
-*Importance and viability/feasibility assessment*
+##### Importance and viability/feasibility assessment
 
 | Opportunity | Importance | Viability/Feasibility | Total |
 | ------------|------------|-----------------------|-------|
@@ -63,16 +63,16 @@ Combining the baseline business and user requirements produces the baseline requ
 |*Summary* |*21*|*25*|-|
 
 
-#### Scope Plane 
+### Scope Plane 
 What will and will not be included in the website will be determined in this section based upon the strategy plane assessment.
 
-*What will be included in the first release?*
+##### What will be included in the first release?
 *	Music and videos
 *	Band hire
 *	Band history and biographies
 *	Social media links 
 
-*What can wait until a website update?*
+##### What can wait until a website update?
 *	Image gallery
 *	Discography
 *	Tour dates and ticket links
@@ -91,7 +91,7 @@ The initial release development will be broken down into sprint stages (16-24 no
 |6|Band hire page|
 |7| Final site presentation|
 
-#### Structure Plane
+### Structure Plane
 
 The main structure of the project is defined in the following:
 * Bar at top will advertise that the band are available for bookings, this will be linked to the ‘hire us’ webpage
@@ -126,31 +126,37 @@ The main structure of the project is defined in the following:
     9.	‘Submit request’ button on ‘hire us’ page will change upon hover (desktop) and upon click
 
 
-#### Skeleton Plane
+### Skeleton Plane
 
 The preliminary skeletal design for each of the pages defined are shown below:
 
-##### Home page
+#### Home page
 
 ![This image is currently unavailable](assets/images/skeleton_1.jpg "Home page wireframe")
 
-##### Listen page
+#### Listen page
 
 ![This image is currently unavailable](assets/images/skeleton_2.jpg "Listen page wireframe")
 
-##### Watch page
+#### Watch page
 
 ![This image is currently unavailable](assets/images/skeleton_3.jpg "Watch page wireframe")
 
-##### Biography page
+#### Biography page
 
 ![This image is currently unavailable](assets/images/skeleton_4.jpg "Biography page wireframe")
 
-##### Hire us page
+#### Hire us page
 
 ![This image is currently unavailable](assets/images/skeleton_5.jpg "Hire us page wireframe")
 
-#### References
+## Project Implementation
+
+## Project Testing
+
+## Project Deployment
+
+## References
 
 ###### REFERENCE 1
 Collapsible navbar code   URL(https://www.w3schools.com/bootstrap4/tryit.asp?filename=trybs_navbar_collapse&stacked=h)
