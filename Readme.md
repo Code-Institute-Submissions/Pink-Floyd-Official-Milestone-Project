@@ -111,13 +111,19 @@ The main structure of the project is defined as follows:
 
 #### UX design
 
-  User feedback will be provided as follows:
+Responsive design is implemented as follows: 
+* Page layout will be optimised for the screen resolution it is viewed upon, from 360px to 3840 px
+* The hire us alert in the header will disappear on smaller screen resolutions but will remain on the bottom
+* Social links will disappear at smaller screen resolutions
+
+User feedback will be provided as follows:
   
-* Link buttons: will change upon hover (desktop) 
-* Mobile navigation icon: will expand and collapse on click
+* Link buttons: will change upon hover (desktop) to show the user that a link these sites is provided
+* Mobile navigation icon: will expand and collapse on click to allow greater space for content on mobile version
 * Social links: will change upon hover (desktop) 
 * Hire us calendar will highlight selected date
 * ‘Submit request’ button on ‘Hire’ page will change upon  upon click
+* responsive
 
 ### Skeleton Plane
 
@@ -161,6 +167,7 @@ The development is broken down into sprint stages (16-24 non-consecutive hours p
 |10| Read me documentation 
 
 ## Project Implementation
+Responsive deisng
 
 no hire bar at top....calendar in hire page
 
