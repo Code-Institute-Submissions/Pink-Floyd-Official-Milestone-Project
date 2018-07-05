@@ -30,9 +30,11 @@ The business and customer objectives are defined within this section.
 *	Increase fan base
 *	Increase online presence
 
+
 #### User Objectives
 
 * *What content are you wanting on the site?*  Band information, tour dates, biographies, music catalogue and videos, additional links and information.
+
 
 ##### Baseline user needs:
 *	Access to new releases and music back catalogue 
@@ -42,6 +44,7 @@ The business and customer objectives are defined within this section.
 *	Discography 
 *	Links to other relevant sites and social media
 *	Tour dates and links of where to buy tickets for shows
+
 
 #### Project Baseline Requirements
 
@@ -55,6 +58,7 @@ Combining the baseline business and user requirements produces the baseline requ
 *	Discography
 *	Social media links 
 *	Tour dates and ticket links
+
 
 #### Importance and viability/feasibility assessment
 
