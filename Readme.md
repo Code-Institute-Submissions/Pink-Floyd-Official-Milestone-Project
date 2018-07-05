@@ -1,21 +1,28 @@
 # Pink Floyd Official Site: Milestone Project 
 
-## Project Concept
+## Purpose
+
+The purpose of the project is to build a front-end website for the band "Pink Floyd". The target audience for this website are current fans and any potential new fans. The site will be used to showcase their music and publicise their availablity to perform at events. The website content will contain the following:
+
+* Photos of the band members
+* Video clips
+* Audio clips
+* Links to their social media pages.
 
 
-## Project Planning
-The following outlines the initial plan for the User Centric Frontend development Milestone project based on building a static website for a 1960’s rock band. I’ve chosen ‘Pink Floyd’ because of the wealth of material available and the diverse and interesting imagery used by the band. 
-Conducted 15/6/2018.
+## Planning
+The following outlines the planning undertaken for the project based on building a static website for a 1960’s rock band. I’ve chosen ‘Pink Floyd’ because of the wealth of material available and the diverse and interesting imagery used by the band. 
+
 
 ### Strategy Plane 
 
-The business and customer objectives will be defined within this section.
+The business and customer objectives are defined within this section.
 
 #### Business Objectives
 
 * *Who are our target audience?*  Current and potential fans
 * *What is compelling site visitors to come to the site?* The opportunity to see and hear music from the back catalogue and from the latest releases. Additionally, the opportunity to hire the band to perform at events.
-* *Why is this site different from our competitors?* This is the ‘official’ band site therefore new material releases from the band will debut here first. Additionally, allowing fans to hire the band to perform at events and functions. 
+* *Why is this site different from our competitors?* This is the ‘official’ band site therefore new material releases from the band will debut here first. Additionally, a hire request page allows fans to hire the band to perform at events and functions. 
 
 ##### Baseline business objectives:
 *	Showcase band materials (music and videos)
@@ -36,7 +43,7 @@ The business and customer objectives will be defined within this section.
 *	Links to other relevant sites and social media
 *	Tour dates and links of where to buy tickets for shows
 
-##### Baseline Requirements
+#### Project Baseline Requirements
 
 Combining the baseline business and user requirements produces the baseline requirements for the project:
 
@@ -49,7 +56,7 @@ Combining the baseline business and user requirements produces the baseline requ
 *	Social media links 
 *	Tour dates and ticket links
 
-##### Importance and viability/feasibility assessment
+#### Importance and viability/feasibility assessment
 
 | Opportunity | Importance | Viability/Feasibility | Total |
 | ------------|------------|-----------------------|-------|
@@ -64,7 +71,7 @@ Combining the baseline business and user requirements produces the baseline requ
 
 
 ### Scope Plane 
-What will and will not be included in the website will be determined in this section based upon the strategy plane assessment.
+What will and will not be included in the website is determined in this section based upon the strategy plane assessment.
 
 ##### What will be included in the first release?
 *	Music and videos
@@ -77,54 +84,40 @@ What will and will not be included in the website will be determined in this sec
 *	Discography
 *	Tour dates and ticket links
 
-The initial release development will be broken down into sprint stages (16-24 non-consecutive hours per sprint), these are defined as follows: 
-
-| Sprint | Tasks |
-|--------|-------|
-|1-1| Header | 
-|1-2 |  Footer and social links |
-|2-1| Navigation layout |
-|2-2| Home page|
-|3| Music page|
-|4| Video page|
-|5|Band history and biographies page|
-|6|Band hire page|
-|7| Final site presentation|
-
 ### Structure Plane
 
-The main structure of the project is defined in the following:
-* Bar at top will advertise that the band are available for bookings, this will be linked to the ‘hire us’ webpage
+The structure of the website and the UX design is defined as follows:
 
-*	Navigation bar (desktop) and navigation-symbol (mobile) located at top each page allows direct access to each page from every other page, this will contain: 
-    1.	Home
-    2.	Listen! 
-    3. 	Watch us live!
-    4. 	Find out more about us!
-    5. 	Hire us!
+#### Site structure
 
-*	Footer located at the bottom of each page will contain:
-    1.	Social links: contains band YouTube, Facebook and Twitter links which will open in a new browser window
-    2.	Hire us link which will be linked to the ‘hire us’ webpage 
+The main structure of the project is defined as follows:
 
-*	The project will contain the following pages, each page will contain the same ‘hire us’ bar; header; and footer:
+* Header bar: located at the top and identical on every page
+ 
+    * Bar at top will advertise that the band are available for bookings, this will be linked a ‘Hire’ webpage
+
+    * Navigation bar (desktop) and navigation-symbol (mobile) located at top each page allows direct access to each page from every other page
+    
+*	The project will contain the following content pages:
     1.	Home: the opening site page
     2.	Listen: will contain new and previous audio for the user to listen to
     3.	Watch us live: will contain videos of the band performing
-    4.	Find out more about us: will contain a band overview and member profile
-    5.	Hire us: will contain a calendar of available dates and a submission form to enquire about hiring the band
+    4.	Biography: will contain a band overview and member profile
+    5.	Hire us: will contain a calendar of available dates and a submission form to enquire about hiring the band        
 
-*	User feedback will be delivered as follows:
-    1.	Link buttons: will change upon hover (desktop) and upon click
-    2.	Mobile navigation icon: will expand on click
-    3.	Social links: will change upon hover (desktop) 
-    4.	Audio ‘listen’ buttons will change upon hover (desktop) and upon click
-    5.	Video ‘play’ buttons will change upon hover (desktop) and upon click
-    6.	Videos (Optional): will be opened in a new browser tab (desktop) and potentially full screen for mobile
-    7.	Band and member information image (Optional): will display in a modal box with the image and information upon click and will change upon hover (desktop)
-    8.	Hire us calendar will highlight selected date
-    9.	‘Submit request’ button on ‘hire us’ page will change upon hover (desktop) and upon click
+*	Footer located at the bottom and identical on every page:
+    1.	Social links: contains social media links which will open in a new browser window
+    2.	Hire link: which will be linked to the ‘Hire’ webpage 
 
+#### UX design
+
+  User feedback will be provided as follows:
+  
+* Link buttons: will change upon hover (desktop) 
+* Mobile navigation icon: will expand and collapse on click
+* Social links: will change upon hover (desktop) 
+* Hire us calendar will highlight selected date
+* ‘Submit request’ button on ‘Hire’ page will change upon  upon click
 
 ### Skeleton Plane
 
@@ -150,18 +143,41 @@ The preliminary skeletal design for each of the pages defined are shown below:
 
 ![This image is currently unavailable](assets/images/skeleton_5.jpg "Hire us page wireframe")
 
+### Development schedule
+
+The development is broken down into sprint stages (16-24 non-consecutive hours per sprint), these are defined as follows: 
+
+| Sprint | Tasks |
+|--------|-------|
+|1| Header | 
+|2|  Footer and social links |
+|3| Navigation layout |
+|4| Home page|
+|5| Music page|
+|6| Video page|
+|7|Band history and biographies page|
+|8|Band hire page|
+|9| Final site presentation|
+|10| Read me documentation 
+
 ## Project Implementation
+
+no hire bar at top....calendar in hire page
 
 ## Project Testing
 
 ### HTML Validation 
 Each page of the site was ran through the [W3C markup validation Service](https://validator.w3.org/)
 
-
-
-
 ### Custom CSS Validation 
 The css stylesheet was run through the [W3C css validation Service](https://jigsaw.w3.org/css-validator/)
+
+[Validated css script](http://jigsaw.w3.org/css-validator/validator$link) 
+
+### Functional testing
+
+### Non-functional testing
+
 
 
 
