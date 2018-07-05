@@ -178,12 +178,18 @@ no hire bar at top....calendar in hire page
 ## Project Testing
 
 ### HTML Validation 
-Each page of the site was ran through the [W3C markup validation Service](https://validator.w3.org/)
+Each page of the site was ran through the [W3C markup validation Service](https://validator.w3.org/). The results of the validator can be found here:
+
+* [index.html](html_css_validation_documents/index_page_w3c_check.pdf)
+* [listen.html](html_css_validation_documents/listen_page_w3c_check.pdf)
+* [watch.html](html_css_validation_documents/watch_page_w3c_check.pdf)
+* [bio.html](html_css_validation_documents/bio_page_w3c_check.pdf)
+* [hire.html](html_css_validation_documents/hire_page_w3c_check.pdf)
 
 ### Custom CSS Validation 
-The css stylesheet was run through the [W3C css validation Service](https://jigsaw.w3.org/css-validator/)
+The css stylesheet was run through the [W3C css validation Service](https://jigsaw.w3.org/css-validator/) with the results displayed here: 
 
-[Validated css script](html_css_validation_documents/w3c_css_validator_results.pdf)
+[styles.css](html_css_validation_documents/w3c_css_validator_results.pdf)
 
 ### Functional testing
 
