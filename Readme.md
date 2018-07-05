@@ -183,7 +183,7 @@ Each page of the site was ran through the [W3C markup validation Service](https:
 ### Custom CSS Validation 
 The css stylesheet was run through the [W3C css validation Service](https://jigsaw.w3.org/css-validator/)
 
-[Validated css script](https://github.com/chrismurray1980/Pink-Floyd-Official-Milestone-Project/html_css_validation_documents/w3c_css_validator_results.pdf) 
+[Validated css script](html_css_validation_documents/w3c_css_validator_results.pdf)
 
 ### Functional testing
 
