@@ -11,164 +11,11 @@ The purpose of the project is to build a front-end website for the band "Pink Fl
 
 
 ## Planning
-The following outlines the planning undertaken for the project based on building a static website for a 1960’s rock band. I’ve chosen ‘Pink Floyd’ because of the wealth of material available and the diverse and interesting imagery used by the band. 
 
+The planning undertaken prior to beginning development work on the Surface Plane of the project is defined in the following document: 
 
-### Strategy Plane 
+* [Planning](supporting_documents/pf_project_planning.pdf)
 
-The business and customer objectives are defined within this section.
-
-#### Business Objectives
-
-* *Who are our target audience?*  Current and potential fans
-* *What is compelling site visitors to come to the site?* The opportunity to see and hear music from the back catalogue and from the latest releases. Additionally, the opportunity to hire the band to perform at events.
-* *Why is this site different from our competitors?* This is the ‘official’ band site therefore new material releases from the band will debut here first. Additionally, a hire request page allows fans to hire the band to perform at events and functions. 
-
-##### Baseline business objectives:
-*	Showcase band materials (music and videos)
-*	Allow band hiring for events and functions (weddings and Xmas parties).
-*	Increase fan base
-*	Increase online presence
-
-
-#### User Objectives
-
-* *What content are you wanting on the site?*  Band information, tour dates, biographies, music catalogue and videos, additional links and information.
-
-
-##### Baseline user needs:
-*	Access to new releases and music back catalogue 
-*	Videos of the band performing
-*	Images of the band/members
-*	Biographies of band members and band history
-*	Discography 
-*	Links to other relevant sites and social media
-*	Tour dates and links of where to buy tickets for shows
-
-
-#### Project Baseline Requirements
-
-Combining the baseline business and user requirements produces the baseline requirements for the project:
-
-
-*	Music and videos
-*	Band hire
-*	Image gallery
-*	Band history and biographies
-*	Discography
-*	Social media links 
-*	Tour dates and ticket links
-
-
-#### Importance and viability/feasibility assessment
-
-| Opportunity | Importance | Viability/Feasibility | Total |
-| ------------|------------|-----------------------|-------|
-|  Music and video| 4 | 5 |  9|
-|  Band hire  | 4 |5 |9|
-| Image gallery |2|3|5|
-| Band history and biography|2|4|6|
-| Discography|2|2|4|
-| Social media links|4|5|9|
-| Tour dates and ticket links | 3| 1|4|
-|*Summary* |*21*|*25*|-|
-
-
-### Scope Plane 
-What will and will not be included in the website is determined in this section based upon the strategy plane assessment.
-
-##### What will be included in the first release?
-*	Music and videos
-*	Band hire
-*	Band history and biographies
-*	Social media links 
-
-##### What can wait until a website update?
-*	Image gallery
-*	Discography
-*	Tour dates and ticket links
-
-### Structure Plane
-
-The structure of the website and the UX design is defined as follows:
-
-#### Site structure
-
-The main structure of the project is defined as follows:
-
-* Header bar: located at the top and identical on every page
- 
-    * Bar at top will advertise that the band are available for bookings, this will be linked a ‘Hire’ webpage
-
-    * Navigation bar (desktop) and navigation-symbol (mobile) located at top each page allows direct access to each page from every other page
-    
-*	The project will contain the following content pages:
-    1.	Home: the opening site page
-    2.	Listen: will contain new and previous audio for the user to listen to
-    3.	Watch us live: will contain videos of the band performing
-    4.	Biography: will contain a band overview and member profile
-    5.	Hire us: will contain a calendar of available dates and a submission form to enquire about hiring the band        
-
-*	Footer located at the bottom and identical on every page:
-    1.	Social links: contains social media links which will open in a new browser window
-    2.	Hire link: which will be linked to the ‘Hire’ webpage 
-
-#### UX design
-
-Responsive design is implemented as follows: 
-* Page layout will be optimised for the screen resolution it is viewed upon, from 360px to 3840 px
-* The hire us alert in the header will disappear on smaller screen resolutions but will remain on the bottom
-* Social links will disappear at smaller screen resolutions
-
-User feedback will be provided as follows:
-  
-* Link buttons: will change upon hover (desktop) to show the user that a link these sites is provided
-* Mobile navigation icon: will expand and collapse on click to allow greater space for content on mobile version
-* Social links: will change upon hover (desktop) 
-* Hire us calendar will highlight selected date
-* ‘Submit request’ button on ‘Hire’ page will change upon  upon click
-* responsive
-
-### Skeleton Plane
-
-The preliminary skeletal design for each of the pages defined are shown below:
-
-#### Home page
-
-![This image is currently unavailable](assets/images/skeleton_1.jpg "Home page wireframe")
-
-#### Listen page
-
-![This image is currently unavailable](assets/images/skeleton_2.jpg "Listen page wireframe")
-
-#### Watch page
-
-![This image is currently unavailable](assets/images/skeleton_3.jpg "Watch page wireframe")
-
-#### Biography page
-
-![This image is currently unavailable](assets/images/skeleton_4.jpg "Biography page wireframe")
-
-#### Hire us page
-
-![This image is currently unavailable](assets/images/skeleton_5.jpg "Hire us page wireframe")
-
-### Development schedule
-
-The development is broken down into sprint stages (16-24 non-consecutive hours per sprint), these are defined as follows: 
-
-| Sprint | Tasks |
-|--------|-------|
-|1| Header | 
-|2|  Footer and social links |
-|3| Navigation layout |
-|4| Home page|
-|5| Music page|
-|6| Video page|
-|7|Band history and biographies page|
-|8|Band hire page|
-|9| Final site presentation|
-|10| Read me documentation 
 
 ## Project Implementation
 
@@ -193,17 +40,17 @@ no hire bar at top....calendar in hire page
 ### Code Validation 
 Each HTML page of the site was run through the [W3C markup validation Service](https://validator.w3.org/) and the CSS was run through the [W3C css validation Service](https://jigsaw.w3.org/css-validator/). The results of the validator can be found here:
 
-* [index.html](html_css_validation_documents/index_page_w3c_check.pdf)
-* [listen.html](html_css_validation_documents/listen_page_w3c_check.pdf)
-* [watch.html](html_css_validation_documents/watch_page_w3c_check.pdf)
-* [bio.html](html_css_validation_documents/bio_page_w3c_check.pdf)
-* [hire.html](html_css_validation_documents/hire_page_w3c_check.pdf)
-* [styles.css](html_css_validation_documents/w3c_css_validator_results.pdf)
+* [index.html](supporting_documents/index_page_w3c_check.pdf)
+* [listen.html](supporting_documents/listen_page_w3c_check.pdf)
+* [watch.html](supporting_documents/watch_page_w3c_check.pdf)
+* [bio.html](supporting_documents/bio_page_w3c_check.pdf)
+* [hire.html](supporting_documents/hire_page_w3c_check.pdf)
+* [styles.css](hsupporting_documents/w3c_css_validator_results.pdf)
 
 ### Website Testing
 The tests conducted on both the initial development of the project in Cloud9 and then repeated once deployment was achieved are shown in the following document:
 
-* [Project Tests](test_documents/project_testing.pdf)
+* [Project Tests](supporting_documents/project_testing.pdf)
 
 
 ## Project Deployment
