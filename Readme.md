@@ -45,7 +45,7 @@ Each HTML page of the site was run through the [W3C markup validation Service](h
 * [watch.html](supporting_documents/watch_page_w3c_check.pdf)
 * [bio.html](supporting_documents/bio_page_w3c_check.pdf)
 * [hire.html](supporting_documents/hire_page_w3c_check.pdf)
-* [styles.css](hsupporting_documents/w3c_css_validator_results.pdf)
+* [styles.css](supporting_documents/w3c_css_validator_results.pdf)
 
 ### Website Testing
 The tests conducted on both the initial development of the project in Cloud9 and then repeated once deployment was achieved are shown in the following document:
