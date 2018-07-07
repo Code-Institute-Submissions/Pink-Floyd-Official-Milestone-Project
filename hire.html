@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-   <meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
@@ -16,99 +16,100 @@
 </head>
 
 <body>
-     <!--HEADER-->
+    <!--HEADER-->
     <header>
 
-            <!--NAVIGATION BAR-->
-            <nav class="navbar navbar-expand-lg">
-                <!--REFERENCE 1-->
-                <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#collapsible-navbar">
+        <!--NAVIGATION BAR-->
+        <nav class="navbar navbar-expand-lg">
+            <!--REFERENCE 1-->
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#collapsible-navbar">
                         <span class="toggle-btn"><i class="fa fa-bars fa-1x"></i></span>
                     </button>
-                <!--REFERENCE 2-->
-                <div class="collapse navbar-collapse" id="collapsible-navbar">
-                    <ul class="list-inline nav-bar-items">
-                        <!-- navbar-nav-->
-                        <li class="list-inline-item nav-item-link">
-                            <a href="index.html" class="hvr-grow"><i class="fa fa-home" aria-hidden="true"></i><span class="d-none d-lg-block">Home</span></a>
-                        </li>
-                        <li class="list-inline-item nav-item-link">
-                            <!--nav-item-->
-                            <a href="listen.html" class="hvr-grow"><i class="fa fa-headphones" aria-hidden="true"></i><span class="d-none d-lg-block">Listen</span></a>
-                        </li>
-                        <li class="list-inline-item nav-item-link">
-                            <a href="watch.html" class="hvr-grow"><i class="fa fa-tv" aria-hidden="true"></i><span class="d-none d-lg-block">Watch</span></a>
-                        </li>
-                        <li class="list-inline-item nav-item-link">
-                            <a href="bio.html" class="hvr-grow"><i class="fa fa-book" aria-hidden="true"></i><span class="d-none d-lg-block">Biography</span></a>
-                        </li>
-                        <li class="list-inline-item nav-item-link">
-                            <a href="hire.html" class="hvr-grow"><i class="fa fa-music" aria-hidden="true"></i><span class="d-none d-lg-block">Hire us</span></a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-            <!--NAVIGATION BAR-->
+            <!--REFERENCE 2-->
+            <div class="collapse navbar-collapse" id="collapsible-navbar">
+                <ul class="list-inline nav-bar-items">
+                    <!-- navbar-nav-->
+                    <li class="list-inline-item nav-item-link">
+                        <a href="index.html" class="hvr-grow"><i class="fa fa-home" aria-hidden="true"></i><span class="d-none d-lg-block">Home</span></a>
+                    </li>
+                    <li class="list-inline-item nav-item-link">
+                        <!--nav-item-->
+                        <a href="listen.html" class="hvr-grow"><i class="fa fa-headphones" aria-hidden="true"></i><span class="d-none d-lg-block">Listen</span></a>
+                    </li>
+                    <li class="list-inline-item nav-item-link">
+                        <a href="watch.html" class="hvr-grow"><i class="fa fa-tv" aria-hidden="true"></i><span class="d-none d-lg-block">Watch</span></a>
+                    </li>
+                    <li class="list-inline-item nav-item-link">
+                        <a href="bio.html" class="hvr-grow"><i class="fa fa-book" aria-hidden="true"></i><span class="d-none d-lg-block">Biography</span></a>
+                    </li>
+                    <li class="list-inline-item nav-item-link">
+                        <a href="hire.html" class="hvr-grow"><i class="fa fa-music" aria-hidden="true"></i><span class="d-none d-lg-block">Hire us</span></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!--NAVIGATION BAR-->
     </header>
     <!--HEADER-->
 
     <!--SECTION-->
     <section>
-            <div class="row no-gutters" id="hire-top-row">
-                <div class="col-12 col-lg-10 offset-lg-1">
-                    <h4 class="hire-form-text">Please fill in your contact details below and the date you would like to hire the band for and we will review your request:</h4>
-                </div>
+        <div class="row no-gutters" id="hire-top-row">
+            <div class="col-12 col-lg-10 offset-lg-1">
+                <h4 class="hire-form-text">Please fill in your contact details below and the date you would like to hire the band for and we will review your request:</h4>
+            </div>
+        </div>
+
+        <div class="row no-gutters" id="hire-bottom-row">
+
+            <div class="col-12 col-lg-6 offset-lg-1">
+                <img alt="This image cannot be displayed" src="assets/images/pulse_live.jpg" class="hire-img">
             </div>
 
-            <div class="row no-gutters" id="hire-bottom-row">
+            <div class="col-12 col-lg-4">
+                <form class="hire-form" id="hireForm">
 
-                <div class="col-12 col-lg-6 offset-lg-1">
-                    <img alt="This image cannot be displayed" src="assets/images/pulse_live.jpg" class="hire-img">
-                </div>
+                    <div>
+                        <label for="InputName" class="hire-form-label">Name:</label>
+                        <input type="text" class="form-control hire-form-box" id="InputName" aria-describedby="nameHelp" placeholder="Please enter your full name" autocomplete="off">
+                        <small id="nameHelp" class="hire-form-subtext">So we know who you are...</small>
+                    </div>
 
-                <div class="col-12 col-lg-4">
-                    <form class="hire-form" id="hireForm">
+                    <div>
+                        <label for="InputEmail" class="hire-form-label">Email:</label>
+                        <input type="email" class="form-control hire-form-box" id="InputEmail" aria-describedby="emailHelp" placeholder="Please enter your email" autocomplete="off">
+                        <small id="emailHelp" class="hire-form-subtext">So we can contact you...</small>
+                    </div>
 
-                        <div>
-                            <label for="InputName" class="hire-form-label">Name:</label>
-                            <input type="text" class="form-control hire-form-box" id="InputName" aria-describedby="nameHelp" placeholder="Please enter your full name" autocomplete="off">
-                            <small id="nameHelp" class="hire-form-subtext">So we know who you are...</small>
-                        </div>
+                    <div>
+                        <label class="hire-form-label">Date:</label>
+                        <input type="date" class="form-control hire-form-box" id="InputDATE" aria-describedby="dateHelp">
+                        <small id="dateHelp" class="hire-form-subtext">So we know when to play...</small>
+                    </div>
 
-                        <div>
-                            <label for="InputEmail" class="hire-form-label">Email:</label>
-                            <input type="email" class="form-control hire-form-box" id="InputEmail" aria-describedby="emailHelp" placeholder="Please enter your email" autocomplete="off">
-                            <small id="emailHelp" class="hire-form-subtext">So we can contact you...</small>
-                        </div>
+                    <div>
+                        <label for="InputComments" class="hire-form-label">Additional Comments:</label>
+                        <input type="text" class="form-control hire-form-box" id="InputComments" autocomplete="off">
+                    </div>
 
-                        <div>
-                            <label class="hire-form-label">Date:</label>
-                            <input type="date" class="form-control hire-form-box" id="InputDATE" aria-describedby="dateHelp">
-                            <small id="dateHelp" class="hire-form-subtext">So we know when to play...</small>
-                        </div>
+                    <button type="button" class="btn hire-submit" onclick="submitRequest()" id="submit_request">Submit</button>
 
-                        <div>
-                            <label for="InputComments" class="hire-form-label">Additional Comments:</label>
-                            <input type="text" class="form-control hire-form-box" id="InputComments" autocomplete="off">
-                        </div>
-                        
-                        <button type="button" class="btn hire-submit" onclick="submitRequest()" id="submit_request">Submit</button>
-                        
-                        <script>
-                            function submitRequest() {
-                                document.getElementById("submit_request").innerHTML = "Request Sent!";
-                                document.getElementById("submit_request").style.backgroundColor = "#fdfdfd";
-                                document.getElementById("submit_request").style.color = '#93b1cd';
-                                document.forms["hireForm"].reset();
-                            }
-                        </script> <!-- REFERENCE 9-->
-                        
-                        <noscript> Sorry, your browser does not support JavaScript!</noscript>
- 
-                        </form>
->
-                </div>
+                    <script>
+                        function submitRequest() {
+                            document.getElementById("submit_request").innerHTML = "Request Sent!";
+                            document.getElementById("submit_request").style.backgroundColor = "#fdfdfd";
+                            document.getElementById("submit_request").style.color = '#93b1cd';
+                            document.forms["hireForm"].reset();
+                        }
+                    </script>
+                    <!-- REFERENCE 9-->
+
+                    <noscript> Sorry, your browser does not support JavaScript!</noscript>
+
+                </form>
+                >
             </div>
+        </div>
         <!--REFERENCE 7-->
     </section>
 
@@ -141,9 +142,9 @@
     </footer>
     <!--FOOTER-->
 
-<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-    
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
