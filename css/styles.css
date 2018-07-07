@@ -15,7 +15,7 @@
 .col-lg-8,
 .col-lg-9,
 .col-lg-10 {
-    
+
     width: 100%;
 }
 
@@ -46,7 +46,6 @@ body {
 }
 
 /*--REFERENCE 4*/
-
 
 /*------------------------------------NAVIGATION BAR STYLES---*/
 
@@ -470,18 +469,17 @@ body {
                                                 ------------*/
 
 @media(min-width: 600px) {
-    
-/*---------------------------------HOME PAGE CONTENT---*/
 
-.main-title {
-    font-size: 45px;
+    /*---------------------------------HOME PAGE CONTENT---*/
+    .main-title {
+        font-size: 45px;
 }
 
-.sub-title {
-    font-size: 25px;
+    .sub-title {
+        font-size: 25px;
 }
 
- /*---------------------------------LISTEN PAGE CONTENT---*/
+    /*---------------------------------LISTEN PAGE CONTENT---*/
     .listen-label {
         font-size: 40px;
         padding-bottom: 3%;
@@ -489,7 +487,7 @@ body {
 
     #listen-bottom-row {
         padding-bottom: 15%;
- }
+}
 
 }
 
@@ -523,16 +521,15 @@ body {
     }
 
     /*---------------------------------LISTEN PAGE CONTENT---*/
-    
     #listen-bottom-row {
         padding-bottom: 10%;
     }
-    
+
     /*------------------------------WATCH PAGE CONTENT---*/
     .watch-label {
-    font-size: 40px;
+        font-size: 40px;
     }
-    
+
     .watch-video-label {
         font-size: 25px;
     }
